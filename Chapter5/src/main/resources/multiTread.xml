@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<suite name="thread" parallel="methods" tread-count="2">
+    <test name="demo1" >
+        <!--
+
+        -->
+        <classes >
+
+            <class name="com.course.testng.multiThread.MultiThreadOnXml"/>
+
+
+        </classes>
+
+    </test>
+
+
+</suite>
