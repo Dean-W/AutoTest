@@ -1,0 +1,1126 @@
+2020-07-21 00:00:01.712 [main] com.course.Application -Starting Application on macbook-pro with PID 4400 (/Users/zhouhaiqing/eclipse-workspace/muke/AutoTest/Chapter11/target/classes started by zhouhaiqing in /Users/zhouhaiqing/eclipse-workspace/muke/AutoTest)
+2020-07-21 00:00:01.715 [main] com.course.Application -No active profile set, falling back to default profiles: default
+2020-07-21 00:00:01.743 [main] o.s.boot.web.servlet.context.AnnotationConfigServletWebServerApplicationContext -Refreshing org.springframework.boot.web.servlet.context.AnnotationConfigServletWebServerApplicationContext@4e50c791: startup date [Tue Jul 21 00:00:01 CST 2020]; root of context hierarchy
+2020-07-21 00:00:02.162 [main] org.mybatis.spring.mapper.ClassPathMapperScanner -No MyBatis mapper was found in '[com.course]' package. Please check your configuration.
+2020-07-21 00:00:02.674 [main] org.springframework.boot.web.embedded.tomcat.TomcatWebServer -Tomcat initialized with port(s): 8888 (http)
+2020-07-21 00:00:02.685 [main] org.apache.coyote.http11.Http11NioProtocol -Initializing ProtocolHandler ["http-nio-8888"]
+2020-07-21 00:00:02.692 [main] org.apache.catalina.core.StandardService -Starting service [Tomcat]
+2020-07-21 00:00:02.693 [main] org.apache.catalina.core.StandardEngine -Starting Servlet Engine: Apache Tomcat/8.5.28
+2020-07-21 00:00:02.696 [localhost-startStop-1] org.apache.catalina.core.AprLifecycleListener -The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: [/Users/zhouhaiqing/Library/Java/Extensions:/Library/Java/Extensions:/Network/Library/Java/Extensions:/System/Library/Java/Extensions:/usr/lib/java:.]
+2020-07-21 00:00:02.777 [localhost-startStop-1] org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] -Initializing Spring embedded WebApplicationContext
+2020-07-21 00:00:02.778 [localhost-startStop-1] org.springframework.web.context.ContextLoader -Root WebApplicationContext: initialization completed in 1035 ms
+2020-07-21 00:00:02.861 [localhost-startStop-1] org.springframework.boot.web.servlet.ServletRegistrationBean -Servlet dispatcherServlet mapped to [/]
+2020-07-21 00:00:02.864 [localhost-startStop-1] org.springframework.boot.web.servlet.FilterRegistrationBean -Mapping filter: 'characterEncodingFilter' to: [/*]
+2020-07-21 00:00:02.864 [localhost-startStop-1] org.springframework.boot.web.servlet.FilterRegistrationBean -Mapping filter: 'hiddenHttpMethodFilter' to: [/*]
+2020-07-21 00:00:02.864 [localhost-startStop-1] org.springframework.boot.web.servlet.FilterRegistrationBean -Mapping filter: 'httpPutFormContentFilter' to: [/*]
+2020-07-21 00:00:02.864 [localhost-startStop-1] org.springframework.boot.web.servlet.FilterRegistrationBean -Mapping filter: 'requestContextFilter' to: [/*]
+2020-07-21 00:00:02.919 [main] o.s.boot.web.servlet.context.AnnotationConfigServletWebServerApplicationContext -Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'demo': Unsatisfied dependency expressed through field 'template'; nested exception is org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'sqlSessionTemplate' defined in class path resource [org/mybatis/spring/boot/autoconfigure/MybatisAutoConfiguration.class]: Unsatisfied dependency expressed through method 'sqlSessionTemplate' parameter 0; nested exception is org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'sqlSessionFactory' defined in class path resource [org/mybatis/spring/boot/autoconfigure/MybatisAutoConfiguration.class]: Unsatisfied dependency expressed through method 'sqlSessionFactory' parameter 0; nested exception is org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'dataSource' defined in class path resource [org/springframework/boot/autoconfigure/jdbc/DataSourceConfiguration$Hikari.class]: Bean instantiation via factory method failed; nested exception is org.springframework.beans.BeanInstantiationException: Failed to instantiate [com.zaxxer.hikari.HikariDataSource]: Factory method 'dataSource' threw exception; nested exception is org.springframework.boot.autoconfigure.jdbc.DataSourceProperties$DataSourceBeanCreationException: Failed to determine a suitable driver class
+2020-07-21 00:00:02.919 [main] org.springframework.context.annotation.CommonAnnotationBeanPostProcessor -Invocation of destroy method failed on bean with name 'application': java.lang.NullPointerException
+2020-07-21 00:00:02.920 [main] org.apache.catalina.core.StandardService -Stopping service [Tomcat]
+2020-07-21 00:00:02.930 [main] o.s.boot.autoconfigure.logging.ConditionEvaluationReportLoggingListener -
+
+Error starting ApplicationContext. To display the conditions report re-run your application with 'debug' enabled.
+2020-07-21 00:00:02.934 [main] org.springframework.boot.diagnostics.LoggingFailureAnalysisReporter -
+
+***************************
+APPLICATION FAILED TO START
+***************************
+
+Description:
+
+Failed to auto-configure a DataSource: 'spring.datasource.url' is not specified and no embedded datasource could be auto-configured.
+
+Reason: Failed to determine a suitable driver class
+
+
+Action:
+
+Consider the following:
+	If you want an embedded database (H2, HSQL or Derby), please put it on the classpath.
+	If you have database settings to be loaded from a particular profile you may need to activate it (no profiles are currently active).
+
+2020-07-21 00:03:15.753 [main] com.course.Application -Starting Application on macbook-pro with PID 4424 (/Users/zhouhaiqing/eclipse-workspace/muke/AutoTest/Chapter11/target/classes started by zhouhaiqing in /Users/zhouhaiqing/eclipse-workspace/muke/AutoTest)
+2020-07-21 00:03:15.755 [main] com.course.Application -No active profile set, falling back to default profiles: default
+2020-07-21 00:03:15.783 [main] o.s.boot.web.servlet.context.AnnotationConfigServletWebServerApplicationContext -Refreshing org.springframework.boot.web.servlet.context.AnnotationConfigServletWebServerApplicationContext@4e50c791: startup date [Tue Jul 21 00:03:15 CST 2020]; root of context hierarchy
+2020-07-21 00:03:16.153 [main] org.mybatis.spring.mapper.ClassPathMapperScanner -No MyBatis mapper was found in '[com.course]' package. Please check your configuration.
+2020-07-21 00:03:16.568 [main] org.springframework.boot.web.embedded.tomcat.TomcatWebServer -Tomcat initialized with port(s): 8888 (http)
+2020-07-21 00:03:16.576 [main] org.apache.coyote.http11.Http11NioProtocol -Initializing ProtocolHandler ["http-nio-8888"]
+2020-07-21 00:03:16.582 [main] org.apache.catalina.core.StandardService -Starting service [Tomcat]
+2020-07-21 00:03:16.582 [main] org.apache.catalina.core.StandardEngine -Starting Servlet Engine: Apache Tomcat/8.5.28
+2020-07-21 00:03:16.585 [localhost-startStop-1] org.apache.catalina.core.AprLifecycleListener -The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: [/Users/zhouhaiqing/Library/Java/Extensions:/Library/Java/Extensions:/Network/Library/Java/Extensions:/System/Library/Java/Extensions:/usr/lib/java:.]
+2020-07-21 00:03:16.657 [localhost-startStop-1] org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] -Initializing Spring embedded WebApplicationContext
+2020-07-21 00:03:16.658 [localhost-startStop-1] org.springframework.web.context.ContextLoader -Root WebApplicationContext: initialization completed in 875 ms
+2020-07-21 00:03:16.735 [localhost-startStop-1] org.springframework.boot.web.servlet.ServletRegistrationBean -Servlet dispatcherServlet mapped to [/]
+2020-07-21 00:03:16.737 [localhost-startStop-1] org.springframework.boot.web.servlet.FilterRegistrationBean -Mapping filter: 'characterEncodingFilter' to: [/*]
+2020-07-21 00:03:16.738 [localhost-startStop-1] org.springframework.boot.web.servlet.FilterRegistrationBean -Mapping filter: 'hiddenHttpMethodFilter' to: [/*]
+2020-07-21 00:03:16.738 [localhost-startStop-1] org.springframework.boot.web.servlet.FilterRegistrationBean -Mapping filter: 'httpPutFormContentFilter' to: [/*]
+2020-07-21 00:03:16.738 [localhost-startStop-1] org.springframework.boot.web.servlet.FilterRegistrationBean -Mapping filter: 'requestContextFilter' to: [/*]
+2020-07-21 00:03:16.785 [main] o.s.boot.web.servlet.context.AnnotationConfigServletWebServerApplicationContext -Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'demo': Unsatisfied dependency expressed through field 'template'; nested exception is org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'sqlSessionTemplate' defined in class path resource [org/mybatis/spring/boot/autoconfigure/MybatisAutoConfiguration.class]: Unsatisfied dependency expressed through method 'sqlSessionTemplate' parameter 0; nested exception is org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'sqlSessionFactory' defined in class path resource [org/mybatis/spring/boot/autoconfigure/MybatisAutoConfiguration.class]: Unsatisfied dependency expressed through method 'sqlSessionFactory' parameter 0; nested exception is org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'dataSource' defined in class path resource [org/springframework/boot/autoconfigure/jdbc/DataSourceConfiguration$Hikari.class]: Bean instantiation via factory method failed; nested exception is org.springframework.beans.BeanInstantiationException: Failed to instantiate [com.zaxxer.hikari.HikariDataSource]: Factory method 'dataSource' threw exception; nested exception is org.springframework.boot.autoconfigure.jdbc.DataSourceProperties$DataSourceBeanCreationException: Failed to determine a suitable driver class
+2020-07-21 00:03:16.785 [main] org.springframework.context.annotation.CommonAnnotationBeanPostProcessor -Invocation of destroy method failed on bean with name 'application': java.lang.NullPointerException
+2020-07-21 00:03:16.786 [main] org.apache.catalina.core.StandardService -Stopping service [Tomcat]
+2020-07-21 00:03:16.794 [main] o.s.boot.autoconfigure.logging.ConditionEvaluationReportLoggingListener -
+
+Error starting ApplicationContext. To display the conditions report re-run your application with 'debug' enabled.
+2020-07-21 00:03:16.798 [main] org.springframework.boot.diagnostics.LoggingFailureAnalysisReporter -
+
+***************************
+APPLICATION FAILED TO START
+***************************
+
+Description:
+
+Failed to auto-configure a DataSource: 'spring.datasource.url' is not specified and no embedded datasource could be auto-configured.
+
+Reason: Failed to determine a suitable driver class
+
+
+Action:
+
+Consider the following:
+	If you want an embedded database (H2, HSQL or Derby), please put it on the classpath.
+	If you have database settings to be loaded from a particular profile you may need to activate it (no profiles are currently active).
+
+2020-07-21 00:03:27.358 [main] com.course.Application -Starting Application on macbook-pro with PID 4430 (/Users/zhouhaiqing/eclipse-workspace/muke/AutoTest/Chapter11/target/classes started by zhouhaiqing in /Users/zhouhaiqing/eclipse-workspace/muke/AutoTest)
+2020-07-21 00:03:27.361 [main] com.course.Application -No active profile set, falling back to default profiles: default
+2020-07-21 00:03:27.393 [main] o.s.boot.web.servlet.context.AnnotationConfigServletWebServerApplicationContext -Refreshing org.springframework.boot.web.servlet.context.AnnotationConfigServletWebServerApplicationContext@4e50c791: startup date [Tue Jul 21 00:03:27 CST 2020]; root of context hierarchy
+2020-07-21 00:03:27.806 [main] org.mybatis.spring.mapper.ClassPathMapperScanner -No MyBatis mapper was found in '[com.course]' package. Please check your configuration.
+2020-07-21 00:03:28.250 [main] org.springframework.boot.web.embedded.tomcat.TomcatWebServer -Tomcat initialized with port(s): 8888 (http)
+2020-07-21 00:03:28.259 [main] org.apache.coyote.http11.Http11NioProtocol -Initializing ProtocolHandler ["http-nio-8888"]
+2020-07-21 00:03:28.265 [main] org.apache.catalina.core.StandardService -Starting service [Tomcat]
+2020-07-21 00:03:28.265 [main] org.apache.catalina.core.StandardEngine -Starting Servlet Engine: Apache Tomcat/8.5.28
+2020-07-21 00:03:28.268 [localhost-startStop-1] org.apache.catalina.core.AprLifecycleListener -The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: [/Users/zhouhaiqing/Library/Java/Extensions:/Library/Java/Extensions:/Network/Library/Java/Extensions:/System/Library/Java/Extensions:/usr/lib/java:.]
+2020-07-21 00:03:28.323 [localhost-startStop-1] org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] -Initializing Spring embedded WebApplicationContext
+2020-07-21 00:03:28.323 [localhost-startStop-1] org.springframework.web.context.ContextLoader -Root WebApplicationContext: initialization completed in 930 ms
+2020-07-21 00:03:28.405 [localhost-startStop-1] org.springframework.boot.web.servlet.ServletRegistrationBean -Servlet dispatcherServlet mapped to [/]
+2020-07-21 00:03:28.408 [localhost-startStop-1] org.springframework.boot.web.servlet.FilterRegistrationBean -Mapping filter: 'characterEncodingFilter' to: [/*]
+2020-07-21 00:03:28.409 [localhost-startStop-1] org.springframework.boot.web.servlet.FilterRegistrationBean -Mapping filter: 'hiddenHttpMethodFilter' to: [/*]
+2020-07-21 00:03:28.409 [localhost-startStop-1] org.springframework.boot.web.servlet.FilterRegistrationBean -Mapping filter: 'httpPutFormContentFilter' to: [/*]
+2020-07-21 00:03:28.409 [localhost-startStop-1] org.springframework.boot.web.servlet.FilterRegistrationBean -Mapping filter: 'requestContextFilter' to: [/*]
+2020-07-21 00:03:28.459 [main] o.s.boot.web.servlet.context.AnnotationConfigServletWebServerApplicationContext -Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'demo': Unsatisfied dependency expressed through field 'template'; nested exception is org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'sqlSessionTemplate' defined in class path resource [org/mybatis/spring/boot/autoconfigure/MybatisAutoConfiguration.class]: Unsatisfied dependency expressed through method 'sqlSessionTemplate' parameter 0; nested exception is org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'sqlSessionFactory' defined in class path resource [org/mybatis/spring/boot/autoconfigure/MybatisAutoConfiguration.class]: Unsatisfied dependency expressed through method 'sqlSessionFactory' parameter 0; nested exception is org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'dataSource' defined in class path resource [org/springframework/boot/autoconfigure/jdbc/DataSourceConfiguration$Hikari.class]: Bean instantiation via factory method failed; nested exception is org.springframework.beans.BeanInstantiationException: Failed to instantiate [com.zaxxer.hikari.HikariDataSource]: Factory method 'dataSource' threw exception; nested exception is org.springframework.boot.autoconfigure.jdbc.DataSourceProperties$DataSourceBeanCreationException: Failed to determine a suitable driver class
+2020-07-21 00:03:28.459 [main] org.springframework.context.annotation.CommonAnnotationBeanPostProcessor -Invocation of destroy method failed on bean with name 'application': java.lang.NullPointerException
+2020-07-21 00:03:28.461 [main] org.apache.catalina.core.StandardService -Stopping service [Tomcat]
+2020-07-21 00:03:28.470 [main] o.s.boot.autoconfigure.logging.ConditionEvaluationReportLoggingListener -
+
+Error starting ApplicationContext. To display the conditions report re-run your application with 'debug' enabled.
+2020-07-21 00:03:28.474 [main] org.springframework.boot.diagnostics.LoggingFailureAnalysisReporter -
+
+***************************
+APPLICATION FAILED TO START
+***************************
+
+Description:
+
+Failed to auto-configure a DataSource: 'spring.datasource.url' is not specified and no embedded datasource could be auto-configured.
+
+Reason: Failed to determine a suitable driver class
+
+
+Action:
+
+Consider the following:
+	If you want an embedded database (H2, HSQL or Derby), please put it on the classpath.
+	If you have database settings to be loaded from a particular profile you may need to activate it (no profiles are currently active).
+
+2020-07-21 00:03:44.482 [main] com.course.Application -Starting Application on macbook-pro with PID 4435 (/Users/zhouhaiqing/eclipse-workspace/muke/AutoTest/Chapter11/target/classes started by zhouhaiqing in /Users/zhouhaiqing/eclipse-workspace/muke/AutoTest)
+2020-07-21 00:03:44.485 [main] com.course.Application -No active profile set, falling back to default profiles: default
+2020-07-21 00:03:44.515 [main] o.s.boot.web.servlet.context.AnnotationConfigServletWebServerApplicationContext -Refreshing org.springframework.boot.web.servlet.context.AnnotationConfigServletWebServerApplicationContext@4e50c791: startup date [Tue Jul 21 00:03:44 CST 2020]; root of context hierarchy
+2020-07-21 00:03:44.920 [main] org.mybatis.spring.mapper.ClassPathMapperScanner -No MyBatis mapper was found in '[com.course]' package. Please check your configuration.
+2020-07-21 00:03:45.296 [main] org.springframework.boot.web.embedded.tomcat.TomcatWebServer -Tomcat initialized with port(s): 8888 (http)
+2020-07-21 00:03:45.305 [main] org.apache.coyote.http11.Http11NioProtocol -Initializing ProtocolHandler ["http-nio-8888"]
+2020-07-21 00:03:45.310 [main] org.apache.catalina.core.StandardService -Starting service [Tomcat]
+2020-07-21 00:03:45.311 [main] org.apache.catalina.core.StandardEngine -Starting Servlet Engine: Apache Tomcat/8.5.28
+2020-07-21 00:03:45.314 [localhost-startStop-1] org.apache.catalina.core.AprLifecycleListener -The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: [/Users/zhouhaiqing/Library/Java/Extensions:/Library/Java/Extensions:/Network/Library/Java/Extensions:/System/Library/Java/Extensions:/usr/lib/java:.]
+2020-07-21 00:03:45.377 [localhost-startStop-1] org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] -Initializing Spring embedded WebApplicationContext
+2020-07-21 00:03:45.377 [localhost-startStop-1] org.springframework.web.context.ContextLoader -Root WebApplicationContext: initialization completed in 863 ms
+2020-07-21 00:03:45.452 [localhost-startStop-1] org.springframework.boot.web.servlet.ServletRegistrationBean -Servlet dispatcherServlet mapped to [/]
+2020-07-21 00:03:45.455 [localhost-startStop-1] org.springframework.boot.web.servlet.FilterRegistrationBean -Mapping filter: 'characterEncodingFilter' to: [/*]
+2020-07-21 00:03:45.455 [localhost-startStop-1] org.springframework.boot.web.servlet.FilterRegistrationBean -Mapping filter: 'hiddenHttpMethodFilter' to: [/*]
+2020-07-21 00:03:45.455 [localhost-startStop-1] org.springframework.boot.web.servlet.FilterRegistrationBean -Mapping filter: 'httpPutFormContentFilter' to: [/*]
+2020-07-21 00:03:45.455 [localhost-startStop-1] org.springframework.boot.web.servlet.FilterRegistrationBean -Mapping filter: 'requestContextFilter' to: [/*]
+2020-07-21 00:03:45.501 [main] o.s.boot.web.servlet.context.AnnotationConfigServletWebServerApplicationContext -Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'demo': Unsatisfied dependency expressed through field 'template'; nested exception is org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'sqlSessionTemplate' defined in class path resource [org/mybatis/spring/boot/autoconfigure/MybatisAutoConfiguration.class]: Unsatisfied dependency expressed through method 'sqlSessionTemplate' parameter 0; nested exception is org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'sqlSessionFactory' defined in class path resource [org/mybatis/spring/boot/autoconfigure/MybatisAutoConfiguration.class]: Unsatisfied dependency expressed through method 'sqlSessionFactory' parameter 0; nested exception is org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'dataSource' defined in class path resource [org/springframework/boot/autoconfigure/jdbc/DataSourceConfiguration$Hikari.class]: Bean instantiation via factory method failed; nested exception is org.springframework.beans.BeanInstantiationException: Failed to instantiate [com.zaxxer.hikari.HikariDataSource]: Factory method 'dataSource' threw exception; nested exception is org.springframework.boot.autoconfigure.jdbc.DataSourceProperties$DataSourceBeanCreationException: Failed to determine a suitable driver class
+2020-07-21 00:03:45.501 [main] org.springframework.context.annotation.CommonAnnotationBeanPostProcessor -Invocation of destroy method failed on bean with name 'application': java.lang.NullPointerException
+2020-07-21 00:03:45.502 [main] org.apache.catalina.core.StandardService -Stopping service [Tomcat]
+2020-07-21 00:03:45.511 [main] o.s.boot.autoconfigure.logging.ConditionEvaluationReportLoggingListener -
+
+Error starting ApplicationContext. To display the conditions report re-run your application with 'debug' enabled.
+2020-07-21 00:03:45.515 [main] org.springframework.boot.diagnostics.LoggingFailureAnalysisReporter -
+
+***************************
+APPLICATION FAILED TO START
+***************************
+
+Description:
+
+Failed to auto-configure a DataSource: 'spring.datasource.url' is not specified and no embedded datasource could be auto-configured.
+
+Reason: Failed to determine a suitable driver class
+
+
+Action:
+
+Consider the following:
+	If you want an embedded database (H2, HSQL or Derby), please put it on the classpath.
+	If you have database settings to be loaded from a particular profile you may need to activate it (no profiles are currently active).
+
+2020-07-21 00:03:58.525 [main] com.course.Application -Starting Application on macbook-pro with PID 4440 (/Users/zhouhaiqing/eclipse-workspace/muke/AutoTest/Chapter11/target/classes started by zhouhaiqing in /Users/zhouhaiqing/eclipse-workspace/muke/AutoTest)
+2020-07-21 00:03:58.527 [main] com.course.Application -No active profile set, falling back to default profiles: default
+2020-07-21 00:03:58.555 [main] o.s.boot.web.servlet.context.AnnotationConfigServletWebServerApplicationContext -Refreshing org.springframework.boot.web.servlet.context.AnnotationConfigServletWebServerApplicationContext@4e50c791: startup date [Tue Jul 21 00:03:58 CST 2020]; root of context hierarchy
+2020-07-21 00:03:58.969 [main] org.mybatis.spring.mapper.ClassPathMapperScanner -No MyBatis mapper was found in '[com.course]' package. Please check your configuration.
+2020-07-21 00:03:59.398 [main] org.springframework.boot.web.embedded.tomcat.TomcatWebServer -Tomcat initialized with port(s): 8888 (http)
+2020-07-21 00:03:59.406 [main] org.apache.coyote.http11.Http11NioProtocol -Initializing ProtocolHandler ["http-nio-8888"]
+2020-07-21 00:03:59.412 [main] org.apache.catalina.core.StandardService -Starting service [Tomcat]
+2020-07-21 00:03:59.412 [main] org.apache.catalina.core.StandardEngine -Starting Servlet Engine: Apache Tomcat/8.5.28
+2020-07-21 00:03:59.415 [localhost-startStop-1] org.apache.catalina.core.AprLifecycleListener -The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: [/Users/zhouhaiqing/Library/Java/Extensions:/Library/Java/Extensions:/Network/Library/Java/Extensions:/System/Library/Java/Extensions:/usr/lib/java:.]
+2020-07-21 00:03:59.468 [localhost-startStop-1] org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] -Initializing Spring embedded WebApplicationContext
+2020-07-21 00:03:59.468 [localhost-startStop-1] org.springframework.web.context.ContextLoader -Root WebApplicationContext: initialization completed in 913 ms
+2020-07-21 00:03:59.546 [localhost-startStop-1] org.springframework.boot.web.servlet.ServletRegistrationBean -Servlet dispatcherServlet mapped to [/]
+2020-07-21 00:03:59.549 [localhost-startStop-1] org.springframework.boot.web.servlet.FilterRegistrationBean -Mapping filter: 'characterEncodingFilter' to: [/*]
+2020-07-21 00:03:59.549 [localhost-startStop-1] org.springframework.boot.web.servlet.FilterRegistrationBean -Mapping filter: 'hiddenHttpMethodFilter' to: [/*]
+2020-07-21 00:03:59.549 [localhost-startStop-1] org.springframework.boot.web.servlet.FilterRegistrationBean -Mapping filter: 'httpPutFormContentFilter' to: [/*]
+2020-07-21 00:03:59.549 [localhost-startStop-1] org.springframework.boot.web.servlet.FilterRegistrationBean -Mapping filter: 'requestContextFilter' to: [/*]
+2020-07-21 00:03:59.600 [main] o.s.boot.web.servlet.context.AnnotationConfigServletWebServerApplicationContext -Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'demo': Unsatisfied dependency expressed through field 'template'; nested exception is org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'sqlSessionTemplate' defined in class path resource [org/mybatis/spring/boot/autoconfigure/MybatisAutoConfiguration.class]: Unsatisfied dependency expressed through method 'sqlSessionTemplate' parameter 0; nested exception is org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'sqlSessionFactory' defined in class path resource [org/mybatis/spring/boot/autoconfigure/MybatisAutoConfiguration.class]: Unsatisfied dependency expressed through method 'sqlSessionFactory' parameter 0; nested exception is org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'dataSource' defined in class path resource [org/springframework/boot/autoconfigure/jdbc/DataSourceConfiguration$Hikari.class]: Bean instantiation via factory method failed; nested exception is org.springframework.beans.BeanInstantiationException: Failed to instantiate [com.zaxxer.hikari.HikariDataSource]: Factory method 'dataSource' threw exception; nested exception is java.lang.IllegalStateException: Cannot load driver class: com.mysql.jdbc.Driver
+2020-07-21 00:03:59.600 [main] org.springframework.context.annotation.CommonAnnotationBeanPostProcessor -Invocation of destroy method failed on bean with name 'application': java.lang.NullPointerException
+2020-07-21 00:03:59.601 [main] org.apache.catalina.core.StandardService -Stopping service [Tomcat]
+2020-07-21 00:03:59.610 [main] o.s.boot.autoconfigure.logging.ConditionEvaluationReportLoggingListener -
+
+Error starting ApplicationContext. To display the conditions report re-run your application with 'debug' enabled.
+2020-07-21 00:03:59.620 [main] org.springframework.boot.SpringApplication -Application run failed
+org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'demo': Unsatisfied dependency expressed through field 'template'; nested exception is org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'sqlSessionTemplate' defined in class path resource [org/mybatis/spring/boot/autoconfigure/MybatisAutoConfiguration.class]: Unsatisfied dependency expressed through method 'sqlSessionTemplate' parameter 0; nested exception is org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'sqlSessionFactory' defined in class path resource [org/mybatis/spring/boot/autoconfigure/MybatisAutoConfiguration.class]: Unsatisfied dependency expressed through method 'sqlSessionFactory' parameter 0; nested exception is org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'dataSource' defined in class path resource [org/springframework/boot/autoconfigure/jdbc/DataSourceConfiguration$Hikari.class]: Bean instantiation via factory method failed; nested exception is org.springframework.beans.BeanInstantiationException: Failed to instantiate [com.zaxxer.hikari.HikariDataSource]: Factory method 'dataSource' threw exception; nested exception is java.lang.IllegalStateException: Cannot load driver class: com.mysql.jdbc.Driver
+	at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor$AutowiredFieldElement.inject(AutowiredAnnotationBeanPostProcessor.java:587)
+	at org.springframework.beans.factory.annotation.InjectionMetadata.inject(InjectionMetadata.java:91)
+	at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor.postProcessPropertyValues(AutowiredAnnotationBeanPostProcessor.java:373)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.populateBean(AbstractAutowireCapableBeanFactory.java:1344)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:582)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:502)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:312)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:228)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:310)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:200)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.preInstantiateSingletons(DefaultListableBeanFactory.java:760)
+	at org.springframework.context.support.AbstractApplicationContext.finishBeanFactoryInitialization(AbstractApplicationContext.java:868)
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:549)
+	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.refresh(ServletWebServerApplicationContext.java:140)
+	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:752)
+	at org.springframework.boot.SpringApplication.refreshContext(SpringApplication.java:388)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:327)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1246)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1234)
+	at com.course.Application.main(Application.java:17)
+Caused by: org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'sqlSessionTemplate' defined in class path resource [org/mybatis/spring/boot/autoconfigure/MybatisAutoConfiguration.class]: Unsatisfied dependency expressed through method 'sqlSessionTemplate' parameter 0; nested exception is org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'sqlSessionFactory' defined in class path resource [org/mybatis/spring/boot/autoconfigure/MybatisAutoConfiguration.class]: Unsatisfied dependency expressed through method 'sqlSessionFactory' parameter 0; nested exception is org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'dataSource' defined in class path resource [org/springframework/boot/autoconfigure/jdbc/DataSourceConfiguration$Hikari.class]: Bean instantiation via factory method failed; nested exception is org.springframework.beans.BeanInstantiationException: Failed to instantiate [com.zaxxer.hikari.HikariDataSource]: Factory method 'dataSource' threw exception; nested exception is java.lang.IllegalStateException: Cannot load driver class: com.mysql.jdbc.Driver
+	at org.springframework.beans.factory.support.ConstructorResolver.createArgumentArray(ConstructorResolver.java:729)
+	at org.springframework.beans.factory.support.ConstructorResolver.instantiateUsingFactoryMethod(ConstructorResolver.java:470)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.instantiateUsingFactoryMethod(AbstractAutowireCapableBeanFactory.java:1250)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBeanInstance(AbstractAutowireCapableBeanFactory.java:1099)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:545)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:502)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:312)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:228)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:310)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:200)
+	at org.springframework.beans.factory.config.DependencyDescriptor.resolveCandidate(DependencyDescriptor.java:251)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.doResolveDependency(DefaultListableBeanFactory.java:1138)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.resolveDependency(DefaultListableBeanFactory.java:1065)
+	at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor$AutowiredFieldElement.inject(AutowiredAnnotationBeanPostProcessor.java:584)
+	... 19 common frames omitted
+Caused by: org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'sqlSessionFactory' defined in class path resource [org/mybatis/spring/boot/autoconfigure/MybatisAutoConfiguration.class]: Unsatisfied dependency expressed through method 'sqlSessionFactory' parameter 0; nested exception is org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'dataSource' defined in class path resource [org/springframework/boot/autoconfigure/jdbc/DataSourceConfiguration$Hikari.class]: Bean instantiation via factory method failed; nested exception is org.springframework.beans.BeanInstantiationException: Failed to instantiate [com.zaxxer.hikari.HikariDataSource]: Factory method 'dataSource' threw exception; nested exception is java.lang.IllegalStateException: Cannot load driver class: com.mysql.jdbc.Driver
+	at org.springframework.beans.factory.support.ConstructorResolver.createArgumentArray(ConstructorResolver.java:729)
+	at org.springframework.beans.factory.support.ConstructorResolver.instantiateUsingFactoryMethod(ConstructorResolver.java:470)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.instantiateUsingFactoryMethod(AbstractAutowireCapableBeanFactory.java:1250)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBeanInstance(AbstractAutowireCapableBeanFactory.java:1099)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:545)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:502)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:312)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:228)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:310)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:200)
+	at org.springframework.beans.factory.config.DependencyDescriptor.resolveCandidate(DependencyDescriptor.java:251)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.doResolveDependency(DefaultListableBeanFactory.java:1138)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.resolveDependency(DefaultListableBeanFactory.java:1065)
+	at org.springframework.beans.factory.support.ConstructorResolver.resolveAutowiredArgument(ConstructorResolver.java:815)
+	at org.springframework.beans.factory.support.ConstructorResolver.createArgumentArray(ConstructorResolver.java:721)
+	... 32 common frames omitted
+Caused by: org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'dataSource' defined in class path resource [org/springframework/boot/autoconfigure/jdbc/DataSourceConfiguration$Hikari.class]: Bean instantiation via factory method failed; nested exception is org.springframework.beans.BeanInstantiationException: Failed to instantiate [com.zaxxer.hikari.HikariDataSource]: Factory method 'dataSource' threw exception; nested exception is java.lang.IllegalStateException: Cannot load driver class: com.mysql.jdbc.Driver
+	at org.springframework.beans.factory.support.ConstructorResolver.instantiateUsingFactoryMethod(ConstructorResolver.java:587)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.instantiateUsingFactoryMethod(AbstractAutowireCapableBeanFactory.java:1250)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBeanInstance(AbstractAutowireCapableBeanFactory.java:1099)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:545)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:502)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:312)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:228)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:310)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:200)
+	at org.springframework.beans.factory.config.DependencyDescriptor.resolveCandidate(DependencyDescriptor.java:251)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.doResolveDependency(DefaultListableBeanFactory.java:1138)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.resolveDependency(DefaultListableBeanFactory.java:1065)
+	at org.springframework.beans.factory.support.ConstructorResolver.resolveAutowiredArgument(ConstructorResolver.java:815)
+	at org.springframework.beans.factory.support.ConstructorResolver.createArgumentArray(ConstructorResolver.java:721)
+	... 46 common frames omitted
+Caused by: org.springframework.beans.BeanInstantiationException: Failed to instantiate [com.zaxxer.hikari.HikariDataSource]: Factory method 'dataSource' threw exception; nested exception is java.lang.IllegalStateException: Cannot load driver class: com.mysql.jdbc.Driver
+	at org.springframework.beans.factory.support.SimpleInstantiationStrategy.instantiate(SimpleInstantiationStrategy.java:185)
+	at org.springframework.beans.factory.support.ConstructorResolver.instantiateUsingFactoryMethod(ConstructorResolver.java:579)
+	... 59 common frames omitted
+Caused by: java.lang.IllegalStateException: Cannot load driver class: com.mysql.jdbc.Driver
+	at org.springframework.util.Assert.state(Assert.java:94)
+	at org.springframework.boot.autoconfigure.jdbc.DataSourceProperties.determineDriverClassName(DataSourceProperties.java:224)
+	at org.springframework.boot.autoconfigure.jdbc.DataSourceProperties.initializeDataSourceBuilder(DataSourceProperties.java:176)
+	at org.springframework.boot.autoconfigure.jdbc.DataSourceConfiguration.createDataSource(DataSourceConfiguration.java:43)
+	at org.springframework.boot.autoconfigure.jdbc.DataSourceConfiguration$Hikari.dataSource(DataSourceConfiguration.java:81)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.springframework.beans.factory.support.SimpleInstantiationStrategy.instantiate(SimpleInstantiationStrategy.java:154)
+	... 60 common frames omitted
+2020-07-21 00:05:59.279 [main] com.course.Application -Starting Application on macbook-pro with PID 4452 (/Users/zhouhaiqing/eclipse-workspace/muke/AutoTest/Chapter11/target/classes started by zhouhaiqing in /Users/zhouhaiqing/eclipse-workspace/muke/AutoTest)
+2020-07-21 00:05:59.281 [main] com.course.Application -No active profile set, falling back to default profiles: default
+2020-07-21 00:05:59.318 [main] o.s.boot.web.servlet.context.AnnotationConfigServletWebServerApplicationContext -Refreshing org.springframework.boot.web.servlet.context.AnnotationConfigServletWebServerApplicationContext@4e50c791: startup date [Tue Jul 21 00:05:59 CST 2020]; root of context hierarchy
+2020-07-21 00:05:59.774 [main] org.mybatis.spring.mapper.ClassPathMapperScanner -No MyBatis mapper was found in '[com.course]' package. Please check your configuration.
+2020-07-21 00:06:00.164 [main] org.springframework.boot.web.embedded.tomcat.TomcatWebServer -Tomcat initialized with port(s): 8888 (http)
+2020-07-21 00:06:00.173 [main] org.apache.coyote.http11.Http11NioProtocol -Initializing ProtocolHandler ["http-nio-8888"]
+2020-07-21 00:06:00.179 [main] org.apache.catalina.core.StandardService -Starting service [Tomcat]
+2020-07-21 00:06:00.179 [main] org.apache.catalina.core.StandardEngine -Starting Servlet Engine: Apache Tomcat/8.5.28
+2020-07-21 00:06:00.182 [localhost-startStop-1] org.apache.catalina.core.AprLifecycleListener -The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: [/Users/zhouhaiqing/Library/Java/Extensions:/Library/Java/Extensions:/Network/Library/Java/Extensions:/System/Library/Java/Extensions:/usr/lib/java:.]
+2020-07-21 00:06:00.245 [localhost-startStop-1] org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] -Initializing Spring embedded WebApplicationContext
+2020-07-21 00:06:00.245 [localhost-startStop-1] org.springframework.web.context.ContextLoader -Root WebApplicationContext: initialization completed in 927 ms
+2020-07-21 00:06:00.324 [localhost-startStop-1] org.springframework.boot.web.servlet.ServletRegistrationBean -Servlet dispatcherServlet mapped to [/]
+2020-07-21 00:06:00.327 [localhost-startStop-1] org.springframework.boot.web.servlet.FilterRegistrationBean -Mapping filter: 'characterEncodingFilter' to: [/*]
+2020-07-21 00:06:00.327 [localhost-startStop-1] org.springframework.boot.web.servlet.FilterRegistrationBean -Mapping filter: 'hiddenHttpMethodFilter' to: [/*]
+2020-07-21 00:06:00.327 [localhost-startStop-1] org.springframework.boot.web.servlet.FilterRegistrationBean -Mapping filter: 'httpPutFormContentFilter' to: [/*]
+2020-07-21 00:06:00.327 [localhost-startStop-1] org.springframework.boot.web.servlet.FilterRegistrationBean -Mapping filter: 'requestContextFilter' to: [/*]
+2020-07-21 00:06:00.376 [main] o.s.boot.web.servlet.context.AnnotationConfigServletWebServerApplicationContext -Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'demo': Unsatisfied dependency expressed through field 'template'; nested exception is org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'sqlSessionTemplate' defined in class path resource [org/mybatis/spring/boot/autoconfigure/MybatisAutoConfiguration.class]: Unsatisfied dependency expressed through method 'sqlSessionTemplate' parameter 0; nested exception is org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'sqlSessionFactory' defined in class path resource [org/mybatis/spring/boot/autoconfigure/MybatisAutoConfiguration.class]: Unsatisfied dependency expressed through method 'sqlSessionFactory' parameter 0; nested exception is org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'dataSource' defined in class path resource [org/springframework/boot/autoconfigure/jdbc/DataSourceConfiguration$Hikari.class]: Bean instantiation via factory method failed; nested exception is org.springframework.beans.BeanInstantiationException: Failed to instantiate [com.zaxxer.hikari.HikariDataSource]: Factory method 'dataSource' threw exception; nested exception is org.springframework.boot.autoconfigure.jdbc.DataSourceProperties$DataSourceBeanCreationException: Failed to determine a suitable driver class
+2020-07-21 00:06:00.376 [main] org.springframework.context.annotation.CommonAnnotationBeanPostProcessor -Invocation of destroy method failed on bean with name 'application': java.lang.NullPointerException
+2020-07-21 00:06:00.377 [main] org.apache.catalina.core.StandardService -Stopping service [Tomcat]
+2020-07-21 00:06:00.386 [main] o.s.boot.autoconfigure.logging.ConditionEvaluationReportLoggingListener -
+
+Error starting ApplicationContext. To display the conditions report re-run your application with 'debug' enabled.
+2020-07-21 00:06:00.390 [main] org.springframework.boot.diagnostics.LoggingFailureAnalysisReporter -
+
+***************************
+APPLICATION FAILED TO START
+***************************
+
+Description:
+
+Failed to auto-configure a DataSource: 'spring.datasource.url' is not specified and no embedded datasource could be auto-configured.
+
+Reason: Failed to determine a suitable driver class
+
+
+Action:
+
+Consider the following:
+	If you want an embedded database (H2, HSQL or Derby), please put it on the classpath.
+	If you have database settings to be loaded from a particular profile you may need to activate it (no profiles are currently active).
+
+2020-07-21 00:07:11.160 [main] com.course.Application -Starting Application on macbook-pro with PID 4457 (/Users/zhouhaiqing/eclipse-workspace/muke/AutoTest/Chapter11/target/classes started by zhouhaiqing in /Users/zhouhaiqing/eclipse-workspace/muke/AutoTest)
+2020-07-21 00:07:11.162 [main] com.course.Application -No active profile set, falling back to default profiles: default
+2020-07-21 00:07:11.187 [main] o.s.boot.web.servlet.context.AnnotationConfigServletWebServerApplicationContext -Refreshing org.springframework.boot.web.servlet.context.AnnotationConfigServletWebServerApplicationContext@4e50c791: startup date [Tue Jul 21 00:07:11 CST 2020]; root of context hierarchy
+2020-07-21 00:07:11.545 [main] org.mybatis.spring.mapper.ClassPathMapperScanner -No MyBatis mapper was found in '[com.course]' package. Please check your configuration.
+2020-07-21 00:07:11.966 [main] org.springframework.boot.web.embedded.tomcat.TomcatWebServer -Tomcat initialized with port(s): 8888 (http)
+2020-07-21 00:07:11.975 [main] org.apache.coyote.http11.Http11NioProtocol -Initializing ProtocolHandler ["http-nio-8888"]
+2020-07-21 00:07:11.980 [main] org.apache.catalina.core.StandardService -Starting service [Tomcat]
+2020-07-21 00:07:11.981 [main] org.apache.catalina.core.StandardEngine -Starting Servlet Engine: Apache Tomcat/8.5.28
+2020-07-21 00:07:11.984 [localhost-startStop-1] org.apache.catalina.core.AprLifecycleListener -The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: [/Users/zhouhaiqing/Library/Java/Extensions:/Library/Java/Extensions:/Network/Library/Java/Extensions:/System/Library/Java/Extensions:/usr/lib/java:.]
+2020-07-21 00:07:12.046 [localhost-startStop-1] org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] -Initializing Spring embedded WebApplicationContext
+2020-07-21 00:07:12.046 [localhost-startStop-1] org.springframework.web.context.ContextLoader -Root WebApplicationContext: initialization completed in 859 ms
+2020-07-21 00:07:12.123 [localhost-startStop-1] org.springframework.boot.web.servlet.ServletRegistrationBean -Servlet dispatcherServlet mapped to [/]
+2020-07-21 00:07:12.125 [localhost-startStop-1] org.springframework.boot.web.servlet.FilterRegistrationBean -Mapping filter: 'characterEncodingFilter' to: [/*]
+2020-07-21 00:07:12.126 [localhost-startStop-1] org.springframework.boot.web.servlet.FilterRegistrationBean -Mapping filter: 'hiddenHttpMethodFilter' to: [/*]
+2020-07-21 00:07:12.126 [localhost-startStop-1] org.springframework.boot.web.servlet.FilterRegistrationBean -Mapping filter: 'httpPutFormContentFilter' to: [/*]
+2020-07-21 00:07:12.126 [localhost-startStop-1] org.springframework.boot.web.servlet.FilterRegistrationBean -Mapping filter: 'requestContextFilter' to: [/*]
+2020-07-21 00:07:12.171 [main] o.s.boot.web.servlet.context.AnnotationConfigServletWebServerApplicationContext -Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'demo': Unsatisfied dependency expressed through field 'template'; nested exception is org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'sqlSessionTemplate' defined in class path resource [org/mybatis/spring/boot/autoconfigure/MybatisAutoConfiguration.class]: Unsatisfied dependency expressed through method 'sqlSessionTemplate' parameter 0; nested exception is org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'sqlSessionFactory' defined in class path resource [org/mybatis/spring/boot/autoconfigure/MybatisAutoConfiguration.class]: Unsatisfied dependency expressed through method 'sqlSessionFactory' parameter 0; nested exception is org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'dataSource' defined in class path resource [org/springframework/boot/autoconfigure/jdbc/DataSourceConfiguration$Hikari.class]: Bean instantiation via factory method failed; nested exception is org.springframework.beans.BeanInstantiationException: Failed to instantiate [com.zaxxer.hikari.HikariDataSource]: Factory method 'dataSource' threw exception; nested exception is org.springframework.boot.autoconfigure.jdbc.DataSourceProperties$DataSourceBeanCreationException: Failed to determine a suitable driver class
+2020-07-21 00:07:12.172 [main] org.springframework.context.annotation.CommonAnnotationBeanPostProcessor -Invocation of destroy method failed on bean with name 'application': java.lang.NullPointerException
+2020-07-21 00:07:12.173 [main] org.apache.catalina.core.StandardService -Stopping service [Tomcat]
+2020-07-21 00:07:12.182 [main] o.s.boot.autoconfigure.logging.ConditionEvaluationReportLoggingListener -
+
+Error starting ApplicationContext. To display the conditions report re-run your application with 'debug' enabled.
+2020-07-21 00:07:12.185 [main] org.springframework.boot.diagnostics.LoggingFailureAnalysisReporter -
+
+***************************
+APPLICATION FAILED TO START
+***************************
+
+Description:
+
+Failed to auto-configure a DataSource: 'spring.datasource.url' is not specified and no embedded datasource could be auto-configured.
+
+Reason: Failed to determine a suitable driver class
+
+
+Action:
+
+Consider the following:
+	If you want an embedded database (H2, HSQL or Derby), please put it on the classpath.
+	If you have database settings to be loaded from a particular profile you may need to activate it (no profiles are currently active).
+
+2020-07-21 00:09:23.753 [main] com.course.Application -Starting Application on macbook-pro with PID 4468 (/Users/zhouhaiqing/eclipse-workspace/muke/AutoTest/Chapter11/target/classes started by zhouhaiqing in /Users/zhouhaiqing/eclipse-workspace/muke/AutoTest)
+2020-07-21 00:09:23.756 [main] com.course.Application -No active profile set, falling back to default profiles: default
+2020-07-21 00:09:23.792 [main] o.s.boot.web.servlet.context.AnnotationConfigServletWebServerApplicationContext -Refreshing org.springframework.boot.web.servlet.context.AnnotationConfigServletWebServerApplicationContext@4e50c791: startup date [Tue Jul 21 00:09:23 CST 2020]; root of context hierarchy
+2020-07-21 00:09:24.181 [main] org.mybatis.spring.mapper.ClassPathMapperScanner -No MyBatis mapper was found in '[com.course]' package. Please check your configuration.
+2020-07-21 00:09:24.603 [main] org.springframework.boot.web.embedded.tomcat.TomcatWebServer -Tomcat initialized with port(s): 8888 (http)
+2020-07-21 00:09:24.612 [main] org.apache.coyote.http11.Http11NioProtocol -Initializing ProtocolHandler ["http-nio-8888"]
+2020-07-21 00:09:24.618 [main] org.apache.catalina.core.StandardService -Starting service [Tomcat]
+2020-07-21 00:09:24.618 [main] org.apache.catalina.core.StandardEngine -Starting Servlet Engine: Apache Tomcat/8.5.28
+2020-07-21 00:09:24.622 [localhost-startStop-1] org.apache.catalina.core.AprLifecycleListener -The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: [/Users/zhouhaiqing/Library/Java/Extensions:/Library/Java/Extensions:/Network/Library/Java/Extensions:/System/Library/Java/Extensions:/usr/lib/java:.]
+2020-07-21 00:09:24.678 [localhost-startStop-1] org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] -Initializing Spring embedded WebApplicationContext
+2020-07-21 00:09:24.678 [localhost-startStop-1] org.springframework.web.context.ContextLoader -Root WebApplicationContext: initialization completed in 887 ms
+2020-07-21 00:09:24.762 [localhost-startStop-1] org.springframework.boot.web.servlet.ServletRegistrationBean -Servlet dispatcherServlet mapped to [/]
+2020-07-21 00:09:24.765 [localhost-startStop-1] org.springframework.boot.web.servlet.FilterRegistrationBean -Mapping filter: 'characterEncodingFilter' to: [/*]
+2020-07-21 00:09:24.766 [localhost-startStop-1] org.springframework.boot.web.servlet.FilterRegistrationBean -Mapping filter: 'hiddenHttpMethodFilter' to: [/*]
+2020-07-21 00:09:24.766 [localhost-startStop-1] org.springframework.boot.web.servlet.FilterRegistrationBean -Mapping filter: 'httpPutFormContentFilter' to: [/*]
+2020-07-21 00:09:24.766 [localhost-startStop-1] org.springframework.boot.web.servlet.FilterRegistrationBean -Mapping filter: 'requestContextFilter' to: [/*]
+2020-07-21 00:09:24.817 [main] o.s.boot.web.servlet.context.AnnotationConfigServletWebServerApplicationContext -Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'demo': Unsatisfied dependency expressed through field 'template'; nested exception is org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'sqlSessionTemplate' defined in class path resource [org/mybatis/spring/boot/autoconfigure/MybatisAutoConfiguration.class]: Unsatisfied dependency expressed through method 'sqlSessionTemplate' parameter 0; nested exception is org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'sqlSessionFactory' defined in class path resource [org/mybatis/spring/boot/autoconfigure/MybatisAutoConfiguration.class]: Unsatisfied dependency expressed through method 'sqlSessionFactory' parameter 0; nested exception is org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'dataSource' defined in class path resource [org/springframework/boot/autoconfigure/jdbc/DataSourceConfiguration$Hikari.class]: Bean instantiation via factory method failed; nested exception is org.springframework.beans.BeanInstantiationException: Failed to instantiate [com.zaxxer.hikari.HikariDataSource]: Factory method 'dataSource' threw exception; nested exception is org.springframework.boot.autoconfigure.jdbc.DataSourceProperties$DataSourceBeanCreationException: Failed to determine a suitable driver class
+2020-07-21 00:09:24.817 [main] org.springframework.context.annotation.CommonAnnotationBeanPostProcessor -Invocation of destroy method failed on bean with name 'application': java.lang.NullPointerException
+2020-07-21 00:09:24.819 [main] org.apache.catalina.core.StandardService -Stopping service [Tomcat]
+2020-07-21 00:09:24.828 [main] o.s.boot.autoconfigure.logging.ConditionEvaluationReportLoggingListener -
+
+Error starting ApplicationContext. To display the conditions report re-run your application with 'debug' enabled.
+2020-07-21 00:09:24.832 [main] org.springframework.boot.diagnostics.LoggingFailureAnalysisReporter -
+
+***************************
+APPLICATION FAILED TO START
+***************************
+
+Description:
+
+Failed to auto-configure a DataSource: 'spring.datasource.url' is not specified and no embedded datasource could be auto-configured.
+
+Reason: Failed to determine a suitable driver class
+
+
+Action:
+
+Consider the following:
+	If you want an embedded database (H2, HSQL or Derby), please put it on the classpath.
+	If you have database settings to be loaded from a particular profile you may need to activate it (no profiles are currently active).
+
+2020-07-21 00:11:55.593 [main] com.course.Application -Starting Application on macbook-pro with PID 4475 (/Users/zhouhaiqing/eclipse-workspace/muke/AutoTest/Chapter11/target/classes started by zhouhaiqing in /Users/zhouhaiqing/eclipse-workspace/muke/AutoTest)
+2020-07-21 00:11:55.595 [main] com.course.Application -No active profile set, falling back to default profiles: default
+2020-07-21 00:11:55.619 [main] o.s.boot.web.servlet.context.AnnotationConfigServletWebServerApplicationContext -Refreshing org.springframework.boot.web.servlet.context.AnnotationConfigServletWebServerApplicationContext@4e50c791: startup date [Tue Jul 21 00:11:55 CST 2020]; root of context hierarchy
+2020-07-21 00:11:55.993 [main] org.mybatis.spring.mapper.ClassPathMapperScanner -No MyBatis mapper was found in '[com.course]' package. Please check your configuration.
+2020-07-21 00:11:56.457 [main] org.springframework.boot.web.embedded.tomcat.TomcatWebServer -Tomcat initialized with port(s): 8888 (http)
+2020-07-21 00:11:56.467 [main] org.apache.coyote.http11.Http11NioProtocol -Initializing ProtocolHandler ["http-nio-8888"]
+2020-07-21 00:11:56.473 [main] org.apache.catalina.core.StandardService -Starting service [Tomcat]
+2020-07-21 00:11:56.473 [main] org.apache.catalina.core.StandardEngine -Starting Servlet Engine: Apache Tomcat/8.5.28
+2020-07-21 00:11:56.476 [localhost-startStop-1] org.apache.catalina.core.AprLifecycleListener -The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: [/Users/zhouhaiqing/Library/Java/Extensions:/Library/Java/Extensions:/Network/Library/Java/Extensions:/System/Library/Java/Extensions:/usr/lib/java:.]
+2020-07-21 00:11:56.529 [localhost-startStop-1] org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] -Initializing Spring embedded WebApplicationContext
+2020-07-21 00:11:56.530 [localhost-startStop-1] org.springframework.web.context.ContextLoader -Root WebApplicationContext: initialization completed in 911 ms
+2020-07-21 00:11:56.623 [localhost-startStop-1] org.springframework.boot.web.servlet.ServletRegistrationBean -Servlet dispatcherServlet mapped to [/]
+2020-07-21 00:11:56.627 [localhost-startStop-1] org.springframework.boot.web.servlet.FilterRegistrationBean -Mapping filter: 'characterEncodingFilter' to: [/*]
+2020-07-21 00:11:56.627 [localhost-startStop-1] org.springframework.boot.web.servlet.FilterRegistrationBean -Mapping filter: 'hiddenHttpMethodFilter' to: [/*]
+2020-07-21 00:11:56.628 [localhost-startStop-1] org.springframework.boot.web.servlet.FilterRegistrationBean -Mapping filter: 'httpPutFormContentFilter' to: [/*]
+2020-07-21 00:11:56.628 [localhost-startStop-1] org.springframework.boot.web.servlet.FilterRegistrationBean -Mapping filter: 'requestContextFilter' to: [/*]
+2020-07-21 00:11:56.685 [main] o.s.boot.web.servlet.context.AnnotationConfigServletWebServerApplicationContext -Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'demo': Unsatisfied dependency expressed through field 'template'; nested exception is org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'sqlSessionTemplate' defined in class path resource [org/mybatis/spring/boot/autoconfigure/MybatisAutoConfiguration.class]: Unsatisfied dependency expressed through method 'sqlSessionTemplate' parameter 0; nested exception is org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'sqlSessionFactory' defined in class path resource [org/mybatis/spring/boot/autoconfigure/MybatisAutoConfiguration.class]: Unsatisfied dependency expressed through method 'sqlSessionFactory' parameter 0; nested exception is org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'dataSource' defined in class path resource [org/springframework/boot/autoconfigure/jdbc/DataSourceConfiguration$Hikari.class]: Bean instantiation via factory method failed; nested exception is org.springframework.beans.BeanInstantiationException: Failed to instantiate [com.zaxxer.hikari.HikariDataSource]: Factory method 'dataSource' threw exception; nested exception is org.springframework.boot.autoconfigure.jdbc.DataSourceProperties$DataSourceBeanCreationException: Failed to determine a suitable driver class
+2020-07-21 00:11:56.686 [main] org.springframework.context.annotation.CommonAnnotationBeanPostProcessor -Invocation of destroy method failed on bean with name 'application': java.lang.NullPointerException
+2020-07-21 00:11:56.687 [main] org.apache.catalina.core.StandardService -Stopping service [Tomcat]
+2020-07-21 00:11:56.697 [main] o.s.boot.autoconfigure.logging.ConditionEvaluationReportLoggingListener -
+
+Error starting ApplicationContext. To display the conditions report re-run your application with 'debug' enabled.
+2020-07-21 00:11:56.702 [main] org.springframework.boot.diagnostics.LoggingFailureAnalysisReporter -
+
+***************************
+APPLICATION FAILED TO START
+***************************
+
+Description:
+
+Failed to auto-configure a DataSource: 'spring.datasource.url' is not specified and no embedded datasource could be auto-configured.
+
+Reason: Failed to determine a suitable driver class
+
+
+Action:
+
+Consider the following:
+	If you want an embedded database (H2, HSQL or Derby), please put it on the classpath.
+	If you have database settings to be loaded from a particular profile you may need to activate it (no profiles are currently active).
+
+2020-07-21 00:14:06.387 [main] com.course.Application -Starting Application on macbook-pro with PID 4485 (/Users/zhouhaiqing/eclipse-workspace/muke/AutoTest/Chapter11/target/classes started by zhouhaiqing in /Users/zhouhaiqing/eclipse-workspace/muke/AutoTest)
+2020-07-21 00:14:06.390 [main] com.course.Application -No active profile set, falling back to default profiles: default
+2020-07-21 00:14:06.418 [main] o.s.boot.web.servlet.context.AnnotationConfigServletWebServerApplicationContext -Refreshing org.springframework.boot.web.servlet.context.AnnotationConfigServletWebServerApplicationContext@4e50c791: startup date [Tue Jul 21 00:14:06 CST 2020]; root of context hierarchy
+2020-07-21 00:14:06.883 [main] org.mybatis.spring.mapper.ClassPathMapperScanner -No MyBatis mapper was found in '[com.course]' package. Please check your configuration.
+2020-07-21 00:14:07.330 [main] org.springframework.boot.web.embedded.tomcat.TomcatWebServer -Tomcat initialized with port(s): 8888 (http)
+2020-07-21 00:14:07.338 [main] org.apache.coyote.http11.Http11NioProtocol -Initializing ProtocolHandler ["http-nio-8888"]
+2020-07-21 00:14:07.344 [main] org.apache.catalina.core.StandardService -Starting service [Tomcat]
+2020-07-21 00:14:07.344 [main] org.apache.catalina.core.StandardEngine -Starting Servlet Engine: Apache Tomcat/8.5.28
+2020-07-21 00:14:07.347 [localhost-startStop-1] org.apache.catalina.core.AprLifecycleListener -The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: [/Users/zhouhaiqing/Library/Java/Extensions:/Library/Java/Extensions:/Network/Library/Java/Extensions:/System/Library/Java/Extensions:/usr/lib/java:.]
+2020-07-21 00:14:07.398 [localhost-startStop-1] org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] -Initializing Spring embedded WebApplicationContext
+2020-07-21 00:14:07.398 [localhost-startStop-1] org.springframework.web.context.ContextLoader -Root WebApplicationContext: initialization completed in 981 ms
+2020-07-21 00:14:07.476 [localhost-startStop-1] org.springframework.boot.web.servlet.ServletRegistrationBean -Servlet dispatcherServlet mapped to [/]
+2020-07-21 00:14:07.479 [localhost-startStop-1] org.springframework.boot.web.servlet.FilterRegistrationBean -Mapping filter: 'characterEncodingFilter' to: [/*]
+2020-07-21 00:14:07.479 [localhost-startStop-1] org.springframework.boot.web.servlet.FilterRegistrationBean -Mapping filter: 'hiddenHttpMethodFilter' to: [/*]
+2020-07-21 00:14:07.479 [localhost-startStop-1] org.springframework.boot.web.servlet.FilterRegistrationBean -Mapping filter: 'httpPutFormContentFilter' to: [/*]
+2020-07-21 00:14:07.479 [localhost-startStop-1] org.springframework.boot.web.servlet.FilterRegistrationBean -Mapping filter: 'requestContextFilter' to: [/*]
+2020-07-21 00:14:07.528 [main] o.s.boot.web.servlet.context.AnnotationConfigServletWebServerApplicationContext -Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'demo': Unsatisfied dependency expressed through field 'template'; nested exception is org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'sqlSessionTemplate' defined in class path resource [org/mybatis/spring/boot/autoconfigure/MybatisAutoConfiguration.class]: Unsatisfied dependency expressed through method 'sqlSessionTemplate' parameter 0; nested exception is org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'sqlSessionFactory' defined in class path resource [org/mybatis/spring/boot/autoconfigure/MybatisAutoConfiguration.class]: Unsatisfied dependency expressed through method 'sqlSessionFactory' parameter 0; nested exception is org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'dataSource' defined in class path resource [org/springframework/boot/autoconfigure/jdbc/DataSourceConfiguration$Hikari.class]: Bean instantiation via factory method failed; nested exception is org.springframework.beans.BeanInstantiationException: Failed to instantiate [com.zaxxer.hikari.HikariDataSource]: Factory method 'dataSource' threw exception; nested exception is org.springframework.boot.autoconfigure.jdbc.DataSourceProperties$DataSourceBeanCreationException: Failed to determine a suitable driver class
+2020-07-21 00:14:07.528 [main] org.springframework.context.annotation.CommonAnnotationBeanPostProcessor -Invocation of destroy method failed on bean with name 'application': java.lang.NullPointerException
+2020-07-21 00:14:07.529 [main] org.apache.catalina.core.StandardService -Stopping service [Tomcat]
+2020-07-21 00:14:07.538 [main] o.s.boot.autoconfigure.logging.ConditionEvaluationReportLoggingListener -
+
+Error starting ApplicationContext. To display the conditions report re-run your application with 'debug' enabled.
+2020-07-21 00:14:07.542 [main] org.springframework.boot.diagnostics.LoggingFailureAnalysisReporter -
+
+***************************
+APPLICATION FAILED TO START
+***************************
+
+Description:
+
+Failed to auto-configure a DataSource: 'spring.datasource.url' is not specified and no embedded datasource could be auto-configured.
+
+Reason: Failed to determine a suitable driver class
+
+
+Action:
+
+Consider the following:
+	If you want an embedded database (H2, HSQL or Derby), please put it on the classpath.
+	If you have database settings to be loaded from a particular profile you may need to activate it (no profiles are currently active).
+
+2020-07-21 00:14:37.216 [main] com.course.Application -Starting Application on macbook-pro with PID 4491 (/Users/zhouhaiqing/eclipse-workspace/muke/AutoTest/Chapter11/target/classes started by zhouhaiqing in /Users/zhouhaiqing/eclipse-workspace/muke/AutoTest)
+2020-07-21 00:14:37.219 [main] com.course.Application -No active profile set, falling back to default profiles: default
+2020-07-21 00:14:37.257 [main] o.s.boot.web.servlet.context.AnnotationConfigServletWebServerApplicationContext -Refreshing org.springframework.boot.web.servlet.context.AnnotationConfigServletWebServerApplicationContext@4e50c791: startup date [Tue Jul 21 00:14:37 CST 2020]; root of context hierarchy
+2020-07-21 00:14:37.718 [main] org.mybatis.spring.mapper.ClassPathMapperScanner -No MyBatis mapper was found in '[com.course]' package. Please check your configuration.
+2020-07-21 00:14:38.154 [main] org.springframework.boot.web.embedded.tomcat.TomcatWebServer -Tomcat initialized with port(s): 8888 (http)
+2020-07-21 00:14:38.162 [main] org.apache.coyote.http11.Http11NioProtocol -Initializing ProtocolHandler ["http-nio-8888"]
+2020-07-21 00:14:38.167 [main] org.apache.catalina.core.StandardService -Starting service [Tomcat]
+2020-07-21 00:14:38.167 [main] org.apache.catalina.core.StandardEngine -Starting Servlet Engine: Apache Tomcat/8.5.28
+2020-07-21 00:14:38.170 [localhost-startStop-1] org.apache.catalina.core.AprLifecycleListener -The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: [/Users/zhouhaiqing/Library/Java/Extensions:/Library/Java/Extensions:/Network/Library/Java/Extensions:/System/Library/Java/Extensions:/usr/lib/java:.]
+2020-07-21 00:14:38.217 [localhost-startStop-1] org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] -Initializing Spring embedded WebApplicationContext
+2020-07-21 00:14:38.218 [localhost-startStop-1] org.springframework.web.context.ContextLoader -Root WebApplicationContext: initialization completed in 960 ms
+2020-07-21 00:14:38.292 [localhost-startStop-1] org.springframework.boot.web.servlet.ServletRegistrationBean -Servlet dispatcherServlet mapped to [/]
+2020-07-21 00:14:38.294 [localhost-startStop-1] org.springframework.boot.web.servlet.FilterRegistrationBean -Mapping filter: 'characterEncodingFilter' to: [/*]
+2020-07-21 00:14:38.295 [localhost-startStop-1] org.springframework.boot.web.servlet.FilterRegistrationBean -Mapping filter: 'hiddenHttpMethodFilter' to: [/*]
+2020-07-21 00:14:38.295 [localhost-startStop-1] org.springframework.boot.web.servlet.FilterRegistrationBean -Mapping filter: 'httpPutFormContentFilter' to: [/*]
+2020-07-21 00:14:38.295 [localhost-startStop-1] org.springframework.boot.web.servlet.FilterRegistrationBean -Mapping filter: 'requestContextFilter' to: [/*]
+2020-07-21 00:14:38.339 [main] o.s.boot.web.servlet.context.AnnotationConfigServletWebServerApplicationContext -Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'demo': Unsatisfied dependency expressed through field 'template'; nested exception is org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'sqlSessionTemplate' defined in class path resource [org/mybatis/spring/boot/autoconfigure/MybatisAutoConfiguration.class]: Unsatisfied dependency expressed through method 'sqlSessionTemplate' parameter 0; nested exception is org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'sqlSessionFactory' defined in class path resource [org/mybatis/spring/boot/autoconfigure/MybatisAutoConfiguration.class]: Unsatisfied dependency expressed through method 'sqlSessionFactory' parameter 0; nested exception is org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'dataSource' defined in class path resource [org/springframework/boot/autoconfigure/jdbc/DataSourceConfiguration$Hikari.class]: Bean instantiation via factory method failed; nested exception is org.springframework.beans.BeanInstantiationException: Failed to instantiate [com.zaxxer.hikari.HikariDataSource]: Factory method 'dataSource' threw exception; nested exception is org.springframework.boot.autoconfigure.jdbc.DataSourceProperties$DataSourceBeanCreationException: Failed to determine a suitable driver class
+2020-07-21 00:14:38.339 [main] org.springframework.context.annotation.CommonAnnotationBeanPostProcessor -Invocation of destroy method failed on bean with name 'application': java.lang.NullPointerException
+2020-07-21 00:14:38.341 [main] org.apache.catalina.core.StandardService -Stopping service [Tomcat]
+2020-07-21 00:14:38.349 [main] o.s.boot.autoconfigure.logging.ConditionEvaluationReportLoggingListener -
+
+Error starting ApplicationContext. To display the conditions report re-run your application with 'debug' enabled.
+2020-07-21 00:14:38.352 [main] org.springframework.boot.diagnostics.LoggingFailureAnalysisReporter -
+
+***************************
+APPLICATION FAILED TO START
+***************************
+
+Description:
+
+Failed to auto-configure a DataSource: 'spring.datasource.url' is not specified and no embedded datasource could be auto-configured.
+
+Reason: Failed to determine a suitable driver class
+
+
+Action:
+
+Consider the following:
+	If you want an embedded database (H2, HSQL or Derby), please put it on the classpath.
+	If you have database settings to be loaded from a particular profile you may need to activate it (no profiles are currently active).
+
+2020-07-21 00:23:29.528 [main] com.course.Application -Starting Application on macbook-pro with PID 4510 (/Users/zhouhaiqing/eclipse-workspace/muke/AutoTest/Chapter11/target/classes started by zhouhaiqing in /Users/zhouhaiqing/eclipse-workspace/muke/AutoTest)
+2020-07-21 00:23:29.530 [main] com.course.Application -No active profile set, falling back to default profiles: default
+2020-07-21 00:23:29.564 [main] o.s.boot.web.servlet.context.AnnotationConfigServletWebServerApplicationContext -Refreshing org.springframework.boot.web.servlet.context.AnnotationConfigServletWebServerApplicationContext@13b6aecc: startup date [Tue Jul 21 00:23:29 CST 2020]; root of context hierarchy
+2020-07-21 00:23:29.881 [main] org.mybatis.spring.mapper.ClassPathMapperScanner -No MyBatis mapper was found in '[com.course]' package. Please check your configuration.
+2020-07-21 00:23:30.255 [main] org.springframework.boot.web.embedded.tomcat.TomcatWebServer -Tomcat initialized with port(s): 8888 (http)
+2020-07-21 00:23:30.263 [main] org.apache.coyote.http11.Http11NioProtocol -Initializing ProtocolHandler ["http-nio-8888"]
+2020-07-21 00:23:30.269 [main] org.apache.catalina.core.StandardService -Starting service [Tomcat]
+2020-07-21 00:23:30.269 [main] org.apache.catalina.core.StandardEngine -Starting Servlet Engine: Apache Tomcat/8.5.28
+2020-07-21 00:23:30.272 [localhost-startStop-1] org.apache.catalina.core.AprLifecycleListener -The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: [/Users/zhouhaiqing/Library/Java/Extensions:/Library/Java/Extensions:/Network/Library/Java/Extensions:/System/Library/Java/Extensions:/usr/lib/java:.]
+2020-07-21 00:23:30.332 [localhost-startStop-1] org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] -Initializing Spring embedded WebApplicationContext
+2020-07-21 00:23:30.332 [localhost-startStop-1] org.springframework.web.context.ContextLoader -Root WebApplicationContext: initialization completed in 768 ms
+2020-07-21 00:23:30.423 [localhost-startStop-1] org.springframework.boot.web.servlet.ServletRegistrationBean -Servlet dispatcherServlet mapped to [/]
+2020-07-21 00:23:30.426 [localhost-startStop-1] org.springframework.boot.web.servlet.FilterRegistrationBean -Mapping filter: 'characterEncodingFilter' to: [/*]
+2020-07-21 00:23:30.426 [localhost-startStop-1] org.springframework.boot.web.servlet.FilterRegistrationBean -Mapping filter: 'hiddenHttpMethodFilter' to: [/*]
+2020-07-21 00:23:30.426 [localhost-startStop-1] org.springframework.boot.web.servlet.FilterRegistrationBean -Mapping filter: 'httpPutFormContentFilter' to: [/*]
+2020-07-21 00:23:30.426 [localhost-startStop-1] org.springframework.boot.web.servlet.FilterRegistrationBean -Mapping filter: 'requestContextFilter' to: [/*]
+2020-07-21 00:23:30.473 [main] o.s.boot.web.servlet.context.AnnotationConfigServletWebServerApplicationContext -Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'demo': Unsatisfied dependency expressed through field 'template'; nested exception is org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'sqlSessionTemplate' defined in class path resource [org/mybatis/spring/boot/autoconfigure/MybatisAutoConfiguration.class]: Unsatisfied dependency expressed through method 'sqlSessionTemplate' parameter 0; nested exception is org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'sqlSessionFactory' defined in class path resource [org/mybatis/spring/boot/autoconfigure/MybatisAutoConfiguration.class]: Unsatisfied dependency expressed through method 'sqlSessionFactory' parameter 0; nested exception is org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'dataSource' defined in class path resource [org/springframework/boot/autoconfigure/jdbc/DataSourceConfiguration$Hikari.class]: Bean instantiation via factory method failed; nested exception is org.springframework.beans.BeanInstantiationException: Failed to instantiate [com.zaxxer.hikari.HikariDataSource]: Factory method 'dataSource' threw exception; nested exception is org.springframework.boot.autoconfigure.jdbc.DataSourceProperties$DataSourceBeanCreationException: Failed to determine a suitable driver class
+2020-07-21 00:23:30.474 [main] org.springframework.context.annotation.CommonAnnotationBeanPostProcessor -Invocation of destroy method failed on bean with name 'application': java.lang.NullPointerException
+2020-07-21 00:23:30.475 [main] org.apache.catalina.core.StandardService -Stopping service [Tomcat]
+2020-07-21 00:23:30.484 [main] o.s.boot.autoconfigure.logging.ConditionEvaluationReportLoggingListener -
+
+Error starting ApplicationContext. To display the conditions report re-run your application with 'debug' enabled.
+2020-07-21 00:23:30.489 [main] org.springframework.boot.diagnostics.LoggingFailureAnalysisReporter -
+
+***************************
+APPLICATION FAILED TO START
+***************************
+
+Description:
+
+Failed to auto-configure a DataSource: 'spring.datasource.url' is not specified and no embedded datasource could be auto-configured.
+
+Reason: Failed to determine a suitable driver class
+
+
+Action:
+
+Consider the following:
+	If you want an embedded database (H2, HSQL or Derby), please put it on the classpath.
+	If you have database settings to be loaded from a particular profile you may need to activate it (no profiles are currently active).
+
+2020-07-21 01:02:17.311 [main] com.course.Application -Starting Application on macbook-pro with PID 4597 (/Users/zhouhaiqing/eclipse-workspace/muke/AutoTest/Chapter11/target/classes started by zhouhaiqing in /Users/zhouhaiqing/eclipse-workspace/muke/AutoTest)
+2020-07-21 01:02:17.313 [main] com.course.Application -No active profile set, falling back to default profiles: default
+2020-07-21 01:02:17.342 [main] o.s.boot.web.servlet.context.AnnotationConfigServletWebServerApplicationContext -Refreshing org.springframework.boot.web.servlet.context.AnnotationConfigServletWebServerApplicationContext@2072acb2: startup date [Tue Jul 21 01:02:17 CST 2020]; root of context hierarchy
+2020-07-21 01:02:17.698 [main] org.mybatis.spring.mapper.ClassPathMapperScanner -No MyBatis mapper was found in '[com.course]' package. Please check your configuration.
+2020-07-21 01:02:18.148 [main] org.springframework.boot.web.embedded.tomcat.TomcatWebServer -Tomcat initialized with port(s): 8888 (http)
+2020-07-21 01:02:18.158 [main] org.apache.coyote.http11.Http11NioProtocol -Initializing ProtocolHandler ["http-nio-8888"]
+2020-07-21 01:02:18.165 [main] org.apache.catalina.core.StandardService -Starting service [Tomcat]
+2020-07-21 01:02:18.165 [main] org.apache.catalina.core.StandardEngine -Starting Servlet Engine: Apache Tomcat/8.5.28
+2020-07-21 01:02:18.169 [localhost-startStop-1] org.apache.catalina.core.AprLifecycleListener -The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: [/Users/zhouhaiqing/Library/Java/Extensions:/Library/Java/Extensions:/Network/Library/Java/Extensions:/System/Library/Java/Extensions:/usr/lib/java:.]
+2020-07-21 01:02:18.246 [localhost-startStop-1] org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] -Initializing Spring embedded WebApplicationContext
+2020-07-21 01:02:18.246 [localhost-startStop-1] org.springframework.web.context.ContextLoader -Root WebApplicationContext: initialization completed in 905 ms
+2020-07-21 01:02:18.344 [localhost-startStop-1] org.springframework.boot.web.servlet.ServletRegistrationBean -Servlet dispatcherServlet mapped to [/]
+2020-07-21 01:02:18.348 [localhost-startStop-1] org.springframework.boot.web.servlet.FilterRegistrationBean -Mapping filter: 'characterEncodingFilter' to: [/*]
+2020-07-21 01:02:18.348 [localhost-startStop-1] org.springframework.boot.web.servlet.FilterRegistrationBean -Mapping filter: 'hiddenHttpMethodFilter' to: [/*]
+2020-07-21 01:02:18.348 [localhost-startStop-1] org.springframework.boot.web.servlet.FilterRegistrationBean -Mapping filter: 'httpPutFormContentFilter' to: [/*]
+2020-07-21 01:02:18.348 [localhost-startStop-1] org.springframework.boot.web.servlet.FilterRegistrationBean -Mapping filter: 'requestContextFilter' to: [/*]
+2020-07-21 01:02:18.405 [main] o.s.boot.web.servlet.context.AnnotationConfigServletWebServerApplicationContext -Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'demo': Unsatisfied dependency expressed through field 'template'; nested exception is org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'sqlSessionTemplate' defined in class path resource [org/mybatis/spring/boot/autoconfigure/MybatisAutoConfiguration.class]: Unsatisfied dependency expressed through method 'sqlSessionTemplate' parameter 0; nested exception is org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'sqlSessionFactory' defined in class path resource [org/mybatis/spring/boot/autoconfigure/MybatisAutoConfiguration.class]: Unsatisfied dependency expressed through method 'sqlSessionFactory' parameter 0; nested exception is org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'dataSource' defined in class path resource [org/springframework/boot/autoconfigure/jdbc/DataSourceConfiguration$Hikari.class]: Bean instantiation via factory method failed; nested exception is org.springframework.beans.BeanInstantiationException: Failed to instantiate [com.zaxxer.hikari.HikariDataSource]: Factory method 'dataSource' threw exception; nested exception is org.springframework.boot.autoconfigure.jdbc.DataSourceProperties$DataSourceBeanCreationException: Failed to determine a suitable driver class
+2020-07-21 01:02:18.405 [main] org.springframework.context.annotation.CommonAnnotationBeanPostProcessor -Invocation of destroy method failed on bean with name 'application': java.lang.NullPointerException
+2020-07-21 01:02:18.406 [main] org.apache.catalina.core.StandardService -Stopping service [Tomcat]
+2020-07-21 01:02:18.416 [main] o.s.boot.autoconfigure.logging.ConditionEvaluationReportLoggingListener -
+
+Error starting ApplicationContext. To display the conditions report re-run your application with 'debug' enabled.
+2020-07-21 01:02:18.420 [main] org.springframework.boot.diagnostics.LoggingFailureAnalysisReporter -
+
+***************************
+APPLICATION FAILED TO START
+***************************
+
+Description:
+
+Failed to auto-configure a DataSource: 'spring.datasource.url' is not specified and no embedded datasource could be auto-configured.
+
+Reason: Failed to determine a suitable driver class
+
+
+Action:
+
+Consider the following:
+	If you want an embedded database (H2, HSQL or Derby), please put it on the classpath.
+	If you have database settings to be loaded from a particular profile you may need to activate it (no profiles are currently active).
+
+2020-07-21 01:03:46.209 [main] com.course.Application -Starting Application on macbook-pro with PID 4604 (/Users/zhouhaiqing/eclipse-workspace/muke/AutoTest/Chapter11/target/classes started by zhouhaiqing in /Users/zhouhaiqing/eclipse-workspace/muke/AutoTest)
+2020-07-21 01:03:46.211 [main] com.course.Application -No active profile set, falling back to default profiles: default
+2020-07-21 01:03:46.240 [main] o.s.boot.web.servlet.context.AnnotationConfigServletWebServerApplicationContext -Refreshing org.springframework.boot.web.servlet.context.AnnotationConfigServletWebServerApplicationContext@13f17eb4: startup date [Tue Jul 21 01:03:46 CST 2020]; root of context hierarchy
+2020-07-21 01:03:46.594 [main] org.mybatis.spring.mapper.ClassPathMapperScanner -No MyBatis mapper was found in '[com.course]' package. Please check your configuration.
+2020-07-21 01:03:47.042 [main] org.springframework.boot.web.embedded.tomcat.TomcatWebServer -Tomcat initialized with port(s): 8888 (http)
+2020-07-21 01:03:47.052 [main] org.apache.coyote.http11.Http11NioProtocol -Initializing ProtocolHandler ["http-nio-8888"]
+2020-07-21 01:03:47.059 [main] org.apache.catalina.core.StandardService -Starting service [Tomcat]
+2020-07-21 01:03:47.059 [main] org.apache.catalina.core.StandardEngine -Starting Servlet Engine: Apache Tomcat/8.5.28
+2020-07-21 01:03:47.063 [localhost-startStop-1] org.apache.catalina.core.AprLifecycleListener -The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: [/Users/zhouhaiqing/Library/Java/Extensions:/Library/Java/Extensions:/Network/Library/Java/Extensions:/System/Library/Java/Extensions:/usr/lib/java:.]
+2020-07-21 01:03:47.140 [localhost-startStop-1] org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] -Initializing Spring embedded WebApplicationContext
+2020-07-21 01:03:47.140 [localhost-startStop-1] org.springframework.web.context.ContextLoader -Root WebApplicationContext: initialization completed in 900 ms
+2020-07-21 01:03:47.239 [localhost-startStop-1] org.springframework.boot.web.servlet.ServletRegistrationBean -Servlet dispatcherServlet mapped to [/]
+2020-07-21 01:03:47.242 [localhost-startStop-1] org.springframework.boot.web.servlet.FilterRegistrationBean -Mapping filter: 'characterEncodingFilter' to: [/*]
+2020-07-21 01:03:47.243 [localhost-startStop-1] org.springframework.boot.web.servlet.FilterRegistrationBean -Mapping filter: 'hiddenHttpMethodFilter' to: [/*]
+2020-07-21 01:03:47.243 [localhost-startStop-1] org.springframework.boot.web.servlet.FilterRegistrationBean -Mapping filter: 'httpPutFormContentFilter' to: [/*]
+2020-07-21 01:03:47.243 [localhost-startStop-1] org.springframework.boot.web.servlet.FilterRegistrationBean -Mapping filter: 'requestContextFilter' to: [/*]
+2020-07-21 01:03:47.300 [main] o.s.boot.web.servlet.context.AnnotationConfigServletWebServerApplicationContext -Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'demo': Unsatisfied dependency expressed through field 'template'; nested exception is org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'sqlSessionTemplate' defined in class path resource [org/mybatis/spring/boot/autoconfigure/MybatisAutoConfiguration.class]: Unsatisfied dependency expressed through method 'sqlSessionTemplate' parameter 0; nested exception is org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'sqlSessionFactory' defined in class path resource [org/mybatis/spring/boot/autoconfigure/MybatisAutoConfiguration.class]: Unsatisfied dependency expressed through method 'sqlSessionFactory' parameter 0; nested exception is org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'dataSource' defined in class path resource [org/springframework/boot/autoconfigure/jdbc/DataSourceConfiguration$Hikari.class]: Bean instantiation via factory method failed; nested exception is org.springframework.beans.BeanInstantiationException: Failed to instantiate [com.zaxxer.hikari.HikariDataSource]: Factory method 'dataSource' threw exception; nested exception is org.springframework.boot.autoconfigure.jdbc.DataSourceProperties$DataSourceBeanCreationException: Failed to determine a suitable driver class
+2020-07-21 01:03:47.300 [main] org.springframework.context.annotation.CommonAnnotationBeanPostProcessor -Invocation of destroy method failed on bean with name 'application': java.lang.NullPointerException
+2020-07-21 01:03:47.301 [main] org.apache.catalina.core.StandardService -Stopping service [Tomcat]
+2020-07-21 01:03:47.311 [main] o.s.boot.autoconfigure.logging.ConditionEvaluationReportLoggingListener -
+
+Error starting ApplicationContext. To display the conditions report re-run your application with 'debug' enabled.
+2020-07-21 01:03:47.316 [main] org.springframework.boot.diagnostics.LoggingFailureAnalysisReporter -
+
+***************************
+APPLICATION FAILED TO START
+***************************
+
+Description:
+
+Failed to auto-configure a DataSource: 'spring.datasource.url' is not specified and no embedded datasource could be auto-configured.
+
+Reason: Failed to determine a suitable driver class
+
+
+Action:
+
+Consider the following:
+	If you want an embedded database (H2, HSQL or Derby), please put it on the classpath.
+	If you have database settings to be loaded from a particular profile you may need to activate it (no profiles are currently active).
+
+2020-07-21 01:08:01.322 [main] com.course.Application -Starting Application on macbook-pro with PID 4611 (/Users/zhouhaiqing/eclipse-workspace/muke/AutoTest/Chapter11/target/classes started by zhouhaiqing in /Users/zhouhaiqing/eclipse-workspace/muke/AutoTest)
+2020-07-21 01:08:01.324 [main] com.course.Application -No active profile set, falling back to default profiles: default
+2020-07-21 01:08:01.351 [main] o.s.boot.web.servlet.context.AnnotationConfigServletWebServerApplicationContext -Refreshing org.springframework.boot.web.servlet.context.AnnotationConfigServletWebServerApplicationContext@4e50c791: startup date [Tue Jul 21 01:08:01 CST 2020]; root of context hierarchy
+2020-07-21 01:08:01.674 [main] org.mybatis.spring.mapper.ClassPathMapperScanner -No MyBatis mapper was found in '[com.course]' package. Please check your configuration.
+2020-07-21 01:08:02.041 [main] org.springframework.boot.web.embedded.tomcat.TomcatWebServer -Tomcat initialized with port(s): 8888 (http)
+2020-07-21 01:08:02.049 [main] org.apache.coyote.http11.Http11NioProtocol -Initializing ProtocolHandler ["http-nio-8888"]
+2020-07-21 01:08:02.055 [main] org.apache.catalina.core.StandardService -Starting service [Tomcat]
+2020-07-21 01:08:02.056 [main] org.apache.catalina.core.StandardEngine -Starting Servlet Engine: Apache Tomcat/8.5.28
+2020-07-21 01:08:02.058 [localhost-startStop-1] org.apache.catalina.core.AprLifecycleListener -The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: [/Users/zhouhaiqing/Library/Java/Extensions:/Library/Java/Extensions:/Network/Library/Java/Extensions:/System/Library/Java/Extensions:/usr/lib/java:.]
+2020-07-21 01:08:02.123 [localhost-startStop-1] org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] -Initializing Spring embedded WebApplicationContext
+2020-07-21 01:08:02.123 [localhost-startStop-1] org.springframework.web.context.ContextLoader -Root WebApplicationContext: initialization completed in 772 ms
+2020-07-21 01:08:02.210 [localhost-startStop-1] org.springframework.boot.web.servlet.ServletRegistrationBean -Servlet dispatcherServlet mapped to [/]
+2020-07-21 01:08:02.213 [localhost-startStop-1] org.springframework.boot.web.servlet.FilterRegistrationBean -Mapping filter: 'characterEncodingFilter' to: [/*]
+2020-07-21 01:08:02.213 [localhost-startStop-1] org.springframework.boot.web.servlet.FilterRegistrationBean -Mapping filter: 'hiddenHttpMethodFilter' to: [/*]
+2020-07-21 01:08:02.213 [localhost-startStop-1] org.springframework.boot.web.servlet.FilterRegistrationBean -Mapping filter: 'httpPutFormContentFilter' to: [/*]
+2020-07-21 01:08:02.213 [localhost-startStop-1] org.springframework.boot.web.servlet.FilterRegistrationBean -Mapping filter: 'requestContextFilter' to: [/*]
+2020-07-21 01:08:02.264 [main] o.s.boot.web.servlet.context.AnnotationConfigServletWebServerApplicationContext -Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'demo': Unsatisfied dependency expressed through field 'template'; nested exception is org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'sqlSessionTemplate' defined in class path resource [org/mybatis/spring/boot/autoconfigure/MybatisAutoConfiguration.class]: Unsatisfied dependency expressed through method 'sqlSessionTemplate' parameter 0; nested exception is org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'sqlSessionFactory' defined in class path resource [org/mybatis/spring/boot/autoconfigure/MybatisAutoConfiguration.class]: Unsatisfied dependency expressed through method 'sqlSessionFactory' parameter 0; nested exception is org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'dataSource' defined in class path resource [org/springframework/boot/autoconfigure/jdbc/DataSourceConfiguration$Hikari.class]: Bean instantiation via factory method failed; nested exception is org.springframework.beans.BeanInstantiationException: Failed to instantiate [com.zaxxer.hikari.HikariDataSource]: Factory method 'dataSource' threw exception; nested exception is org.springframework.boot.autoconfigure.jdbc.DataSourceProperties$DataSourceBeanCreationException: Failed to determine a suitable driver class
+2020-07-21 01:08:02.264 [main] org.springframework.context.annotation.CommonAnnotationBeanPostProcessor -Invocation of destroy method failed on bean with name 'application': java.lang.NullPointerException
+2020-07-21 01:08:02.266 [main] org.apache.catalina.core.StandardService -Stopping service [Tomcat]
+2020-07-21 01:08:02.274 [main] o.s.boot.autoconfigure.logging.ConditionEvaluationReportLoggingListener -
+
+Error starting ApplicationContext. To display the conditions report re-run your application with 'debug' enabled.
+2020-07-21 01:08:02.278 [main] org.springframework.boot.diagnostics.LoggingFailureAnalysisReporter -
+
+***************************
+APPLICATION FAILED TO START
+***************************
+
+Description:
+
+Failed to auto-configure a DataSource: 'spring.datasource.url' is not specified and no embedded datasource could be auto-configured.
+
+Reason: Failed to determine a suitable driver class
+
+
+Action:
+
+Consider the following:
+	If you want an embedded database (H2, HSQL or Derby), please put it on the classpath.
+	If you have database settings to be loaded from a particular profile you may need to activate it (no profiles are currently active).
+
+2020-07-21 01:12:25.701 [main] com.course.Application -Starting Application on macbook-pro with PID 4631 (/Users/zhouhaiqing/eclipse-workspace/muke/AutoTest/Chapter11/target/classes started by zhouhaiqing in /Users/zhouhaiqing/eclipse-workspace/muke/AutoTest)
+2020-07-21 01:12:25.704 [main] com.course.Application -No active profile set, falling back to default profiles: default
+2020-07-21 01:12:25.737 [main] o.s.boot.web.servlet.context.AnnotationConfigServletWebServerApplicationContext -Refreshing org.springframework.boot.web.servlet.context.AnnotationConfigServletWebServerApplicationContext@394df057: startup date [Tue Jul 21 01:12:25 CST 2020]; root of context hierarchy
+2020-07-21 01:12:26.174 [main] org.mybatis.spring.mapper.ClassPathMapperScanner -No MyBatis mapper was found in '[com.course]' package. Please check your configuration.
+2020-07-21 01:12:26.574 [main] org.springframework.boot.web.embedded.tomcat.TomcatWebServer -Tomcat initialized with port(s): 8888 (http)
+2020-07-21 01:12:26.582 [main] org.apache.coyote.http11.Http11NioProtocol -Initializing ProtocolHandler ["http-nio-8888"]
+2020-07-21 01:12:26.588 [main] org.apache.catalina.core.StandardService -Starting service [Tomcat]
+2020-07-21 01:12:26.589 [main] org.apache.catalina.core.StandardEngine -Starting Servlet Engine: Apache Tomcat/8.5.28
+2020-07-21 01:12:26.592 [localhost-startStop-1] org.apache.catalina.core.AprLifecycleListener -The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: [/Users/zhouhaiqing/Library/Java/Extensions:/Library/Java/Extensions:/Network/Library/Java/Extensions:/System/Library/Java/Extensions:/usr/lib/java:.]
+2020-07-21 01:12:26.652 [localhost-startStop-1] org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] -Initializing Spring embedded WebApplicationContext
+2020-07-21 01:12:26.652 [localhost-startStop-1] org.springframework.web.context.ContextLoader -Root WebApplicationContext: initialization completed in 915 ms
+2020-07-21 01:12:26.728 [localhost-startStop-1] org.springframework.boot.web.servlet.ServletRegistrationBean -Servlet dispatcherServlet mapped to [/]
+2020-07-21 01:12:26.730 [localhost-startStop-1] org.springframework.boot.web.servlet.FilterRegistrationBean -Mapping filter: 'characterEncodingFilter' to: [/*]
+2020-07-21 01:12:26.731 [localhost-startStop-1] org.springframework.boot.web.servlet.FilterRegistrationBean -Mapping filter: 'hiddenHttpMethodFilter' to: [/*]
+2020-07-21 01:12:26.731 [localhost-startStop-1] org.springframework.boot.web.servlet.FilterRegistrationBean -Mapping filter: 'httpPutFormContentFilter' to: [/*]
+2020-07-21 01:12:26.731 [localhost-startStop-1] org.springframework.boot.web.servlet.FilterRegistrationBean -Mapping filter: 'requestContextFilter' to: [/*]
+2020-07-21 01:12:27.194 [main] o.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter -Looking for @ControllerAdvice: org.springframework.boot.web.servlet.context.AnnotationConfigServletWebServerApplicationContext@394df057: startup date [Tue Jul 21 01:12:25 CST 2020]; root of context hierarchy
+2020-07-21 01:12:27.255 [main] o.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping -Mapped "{[/v1/getUserCount],methods=[GET]}" onto public int com.course.controller.Demo.getUserCount()
+2020-07-21 01:12:27.259 [main] o.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping -Mapped "{[/error],produces=[text/html]}" onto public org.springframework.web.servlet.ModelAndView org.springframework.boot.autoconfigure.web.servlet.error.BasicErrorController.errorHtml(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse)
+2020-07-21 01:12:27.259 [main] o.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping -Mapped "{[/error]}" onto public org.springframework.http.ResponseEntity<java.util.Map<java.lang.String, java.lang.Object>> org.springframework.boot.autoconfigure.web.servlet.error.BasicErrorController.error(javax.servlet.http.HttpServletRequest)
+2020-07-21 01:12:27.335 [main] org.springframework.web.servlet.handler.SimpleUrlHandlerMapping -Mapped URL path [/webjars/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2020-07-21 01:12:27.335 [main] org.springframework.web.servlet.handler.SimpleUrlHandlerMapping -Mapped URL path [/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2020-07-21 01:12:27.363 [main] org.springframework.web.servlet.handler.SimpleUrlHandlerMapping -Mapped URL path [/**/favicon.ico] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2020-07-21 01:12:27.492 [main] org.springframework.jmx.export.annotation.AnnotationMBeanExporter -Registering beans for JMX exposure on startup
+2020-07-21 01:12:27.493 [main] org.springframework.jmx.export.annotation.AnnotationMBeanExporter -Bean with name 'dataSource' has been autodetected for JMX exposure
+2020-07-21 01:12:27.497 [main] org.springframework.jmx.export.annotation.AnnotationMBeanExporter -Located MBean 'dataSource': registering with JMX server as MBean [com.zaxxer.hikari:name=dataSource,type=HikariDataSource]
+2020-07-21 01:12:27.509 [main] org.apache.coyote.http11.Http11NioProtocol -Starting ProtocolHandler ["http-nio-8888"]
+2020-07-21 01:12:27.526 [main] org.apache.tomcat.util.net.NioSelectorPool -Using a shared selector for servlet write/read
+2020-07-21 01:12:27.536 [main] org.springframework.boot.web.embedded.tomcat.TomcatWebServer -Tomcat started on port(s): 8888 (http) with context path ''
+2020-07-21 01:12:27.539 [main] com.course.Application -Started Application in 2.061 seconds (JVM running for 2.534)
+2020-07-21 01:14:43.931 [Thread-5] o.s.boot.web.servlet.context.AnnotationConfigServletWebServerApplicationContext -Closing org.springframework.boot.web.servlet.context.AnnotationConfigServletWebServerApplicationContext@394df057: startup date [Tue Jul 21 01:12:25 CST 2020]; root of context hierarchy
+2020-07-21 01:14:43.932 [Thread-5] org.springframework.jmx.export.annotation.AnnotationMBeanExporter -Unregistering JMX-exposed beans on shutdown
+2020-07-21 01:14:43.933 [Thread-5] org.springframework.jmx.export.annotation.AnnotationMBeanExporter -Unregistering JMX-exposed beans
+2020-07-21 01:14:45.984 [main] com.course.Application -Starting Application on macbook-pro with PID 4640 (/Users/zhouhaiqing/eclipse-workspace/muke/AutoTest/Chapter11/target/classes started by zhouhaiqing in /Users/zhouhaiqing/eclipse-workspace/muke/AutoTest)
+2020-07-21 01:14:45.986 [main] com.course.Application -No active profile set, falling back to default profiles: default
+2020-07-21 01:14:46.011 [main] o.s.boot.web.servlet.context.AnnotationConfigServletWebServerApplicationContext -Refreshing org.springframework.boot.web.servlet.context.AnnotationConfigServletWebServerApplicationContext@394df057: startup date [Tue Jul 21 01:14:46 CST 2020]; root of context hierarchy
+2020-07-21 01:14:46.331 [main] org.mybatis.spring.mapper.ClassPathMapperScanner -No MyBatis mapper was found in '[com.course]' package. Please check your configuration.
+2020-07-21 01:14:46.773 [main] org.springframework.boot.web.embedded.tomcat.TomcatWebServer -Tomcat initialized with port(s): 8888 (http)
+2020-07-21 01:14:46.782 [main] org.apache.coyote.http11.Http11NioProtocol -Initializing ProtocolHandler ["http-nio-8888"]
+2020-07-21 01:14:46.789 [main] org.apache.catalina.core.StandardService -Starting service [Tomcat]
+2020-07-21 01:14:46.789 [main] org.apache.catalina.core.StandardEngine -Starting Servlet Engine: Apache Tomcat/8.5.28
+2020-07-21 01:14:46.792 [localhost-startStop-1] org.apache.catalina.core.AprLifecycleListener -The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: [/Users/zhouhaiqing/Library/Java/Extensions:/Library/Java/Extensions:/Network/Library/Java/Extensions:/System/Library/Java/Extensions:/usr/lib/java:.]
+2020-07-21 01:14:46.855 [localhost-startStop-1] org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] -Initializing Spring embedded WebApplicationContext
+2020-07-21 01:14:46.855 [localhost-startStop-1] org.springframework.web.context.ContextLoader -Root WebApplicationContext: initialization completed in 844 ms
+2020-07-21 01:14:46.934 [localhost-startStop-1] org.springframework.boot.web.servlet.ServletRegistrationBean -Servlet dispatcherServlet mapped to [/]
+2020-07-21 01:14:46.937 [localhost-startStop-1] org.springframework.boot.web.servlet.FilterRegistrationBean -Mapping filter: 'characterEncodingFilter' to: [/*]
+2020-07-21 01:14:46.937 [localhost-startStop-1] org.springframework.boot.web.servlet.FilterRegistrationBean -Mapping filter: 'hiddenHttpMethodFilter' to: [/*]
+2020-07-21 01:14:46.937 [localhost-startStop-1] org.springframework.boot.web.servlet.FilterRegistrationBean -Mapping filter: 'httpPutFormContentFilter' to: [/*]
+2020-07-21 01:14:46.937 [localhost-startStop-1] org.springframework.boot.web.servlet.FilterRegistrationBean -Mapping filter: 'requestContextFilter' to: [/*]
+2020-07-21 01:14:47.305 [main] o.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter -Looking for @ControllerAdvice: org.springframework.boot.web.servlet.context.AnnotationConfigServletWebServerApplicationContext@394df057: startup date [Tue Jul 21 01:14:46 CST 2020]; root of context hierarchy
+2020-07-21 01:14:47.353 [main] o.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping -Mapped "{[/v1/getUserCount],methods=[GET]}" onto public int com.course.controller.Demo.getUserCount()
+2020-07-21 01:14:47.357 [main] o.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping -Mapped "{[/error]}" onto public org.springframework.http.ResponseEntity<java.util.Map<java.lang.String, java.lang.Object>> org.springframework.boot.autoconfigure.web.servlet.error.BasicErrorController.error(javax.servlet.http.HttpServletRequest)
+2020-07-21 01:14:47.358 [main] o.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping -Mapped "{[/error],produces=[text/html]}" onto public org.springframework.web.servlet.ModelAndView org.springframework.boot.autoconfigure.web.servlet.error.BasicErrorController.errorHtml(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse)
+2020-07-21 01:14:47.431 [main] org.springframework.web.servlet.handler.SimpleUrlHandlerMapping -Mapped URL path [/webjars/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2020-07-21 01:14:47.431 [main] org.springframework.web.servlet.handler.SimpleUrlHandlerMapping -Mapped URL path [/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2020-07-21 01:14:47.457 [main] org.springframework.web.servlet.handler.SimpleUrlHandlerMapping -Mapped URL path [/**/favicon.ico] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2020-07-21 01:14:47.576 [main] org.springframework.jmx.export.annotation.AnnotationMBeanExporter -Registering beans for JMX exposure on startup
+2020-07-21 01:14:47.577 [main] org.springframework.jmx.export.annotation.AnnotationMBeanExporter -Bean with name 'dataSource' has been autodetected for JMX exposure
+2020-07-21 01:14:47.581 [main] org.springframework.jmx.export.annotation.AnnotationMBeanExporter -Located MBean 'dataSource': registering with JMX server as MBean [com.zaxxer.hikari:name=dataSource,type=HikariDataSource]
+2020-07-21 01:14:47.590 [main] org.apache.coyote.http11.Http11NioProtocol -Starting ProtocolHandler ["http-nio-8888"]
+2020-07-21 01:14:47.605 [main] org.apache.tomcat.util.net.NioSelectorPool -Using a shared selector for servlet write/read
+2020-07-21 01:14:47.613 [main] org.springframework.boot.web.embedded.tomcat.TomcatWebServer -Tomcat started on port(s): 8888 (http) with context path ''
+2020-07-21 01:14:47.616 [main] com.course.Application -Started Application in 1.839 seconds (JVM running for 2.349)
+2020-07-21 01:17:03.073 [http-nio-8888-exec-1] org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] -Initializing Spring FrameworkServlet 'dispatcherServlet'
+2020-07-21 01:17:03.073 [http-nio-8888-exec-1] org.springframework.web.servlet.DispatcherServlet -FrameworkServlet 'dispatcherServlet': initialization started
+2020-07-21 01:17:03.087 [http-nio-8888-exec-1] org.springframework.web.servlet.DispatcherServlet -FrameworkServlet 'dispatcherServlet': initialization completed in 14 ms
+2020-07-21 01:17:03.117 [http-nio-8888-exec-1] com.zaxxer.hikari.HikariDataSource -HikariPool-1 - Starting...
+2020-07-21 01:17:03.409 [http-nio-8888-exec-1] com.zaxxer.hikari.HikariDataSource -HikariPool-1 - Start completed.
+2020-07-21 01:18:06.594 [Thread-6] o.s.boot.web.servlet.context.AnnotationConfigServletWebServerApplicationContext -Closing org.springframework.boot.web.servlet.context.AnnotationConfigServletWebServerApplicationContext@394df057: startup date [Tue Jul 21 01:14:46 CST 2020]; root of context hierarchy
+2020-07-21 01:18:06.596 [Thread-6] org.springframework.jmx.export.annotation.AnnotationMBeanExporter -Unregistering JMX-exposed beans on shutdown
+2020-07-21 01:18:06.596 [Thread-6] org.springframework.jmx.export.annotation.AnnotationMBeanExporter -Unregistering JMX-exposed beans
+2020-07-21 01:18:06.597 [Thread-6] com.zaxxer.hikari.HikariDataSource -HikariPool-1 - Shutdown initiated...
+2020-07-21 01:18:06.607 [Thread-6] com.zaxxer.hikari.HikariDataSource -HikariPool-1 - Shutdown completed.
+2020-07-21 01:23:11.584 [main] com.course.Application -Starting Application on macbook-pro with PID 4676 (/Users/zhouhaiqing/eclipse-workspace/muke/AutoTest/Chapter11/target/classes started by zhouhaiqing in /Users/zhouhaiqing/eclipse-workspace/muke/AutoTest)
+2020-07-21 01:23:11.587 [main] com.course.Application -No active profile set, falling back to default profiles: default
+2020-07-21 01:23:11.632 [main] o.s.boot.web.servlet.context.AnnotationConfigServletWebServerApplicationContext -Refreshing org.springframework.boot.web.servlet.context.AnnotationConfigServletWebServerApplicationContext@45fd9a4d: startup date [Tue Jul 21 01:23:11 CST 2020]; root of context hierarchy
+2020-07-21 01:23:12.172 [main] org.mybatis.spring.mapper.ClassPathMapperScanner -No MyBatis mapper was found in '[com.course]' package. Please check your configuration.
+2020-07-21 01:23:12.720 [main] org.springframework.boot.web.embedded.tomcat.TomcatWebServer -Tomcat initialized with port(s): 8888 (http)
+2020-07-21 01:23:12.729 [main] org.apache.coyote.http11.Http11NioProtocol -Initializing ProtocolHandler ["http-nio-8888"]
+2020-07-21 01:23:12.736 [main] org.apache.catalina.core.StandardService -Starting service [Tomcat]
+2020-07-21 01:23:12.736 [main] org.apache.catalina.core.StandardEngine -Starting Servlet Engine: Apache Tomcat/8.5.28
+2020-07-21 01:23:12.739 [localhost-startStop-1] org.apache.catalina.core.AprLifecycleListener -The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: [/Users/zhouhaiqing/Library/Java/Extensions:/Library/Java/Extensions:/Network/Library/Java/Extensions:/System/Library/Java/Extensions:/usr/lib/java:.]
+2020-07-21 01:23:12.795 [localhost-startStop-1] org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] -Initializing Spring embedded WebApplicationContext
+2020-07-21 01:23:12.795 [localhost-startStop-1] org.springframework.web.context.ContextLoader -Root WebApplicationContext: initialization completed in 1163 ms
+2020-07-21 01:23:12.893 [localhost-startStop-1] org.springframework.boot.web.servlet.ServletRegistrationBean -Servlet dispatcherServlet mapped to [/]
+2020-07-21 01:23:12.896 [localhost-startStop-1] org.springframework.boot.web.servlet.FilterRegistrationBean -Mapping filter: 'characterEncodingFilter' to: [/*]
+2020-07-21 01:23:12.897 [localhost-startStop-1] org.springframework.boot.web.servlet.FilterRegistrationBean -Mapping filter: 'hiddenHttpMethodFilter' to: [/*]
+2020-07-21 01:23:12.897 [localhost-startStop-1] org.springframework.boot.web.servlet.FilterRegistrationBean -Mapping filter: 'httpPutFormContentFilter' to: [/*]
+2020-07-21 01:23:12.897 [localhost-startStop-1] org.springframework.boot.web.servlet.FilterRegistrationBean -Mapping filter: 'requestContextFilter' to: [/*]
+2020-07-21 01:23:13.352 [main] o.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter -Looking for @ControllerAdvice: org.springframework.boot.web.servlet.context.AnnotationConfigServletWebServerApplicationContext@45fd9a4d: startup date [Tue Jul 21 01:23:11 CST 2020]; root of context hierarchy
+2020-07-21 01:23:13.399 [main] o.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping -Mapped "{[/v1/getUserCount],methods=[GET]}" onto public int com.course.controller.Demo.getUserCount()
+2020-07-21 01:23:13.403 [main] o.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping -Mapped "{[/error]}" onto public org.springframework.http.ResponseEntity<java.util.Map<java.lang.String, java.lang.Object>> org.springframework.boot.autoconfigure.web.servlet.error.BasicErrorController.error(javax.servlet.http.HttpServletRequest)
+2020-07-21 01:23:13.403 [main] o.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping -Mapped "{[/error],produces=[text/html]}" onto public org.springframework.web.servlet.ModelAndView org.springframework.boot.autoconfigure.web.servlet.error.BasicErrorController.errorHtml(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse)
+2020-07-21 01:23:13.498 [main] org.springframework.web.servlet.handler.SimpleUrlHandlerMapping -Mapped URL path [/webjars/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2020-07-21 01:23:13.498 [main] org.springframework.web.servlet.handler.SimpleUrlHandlerMapping -Mapped URL path [/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2020-07-21 01:23:13.536 [main] org.springframework.web.servlet.handler.SimpleUrlHandlerMapping -Mapped URL path [/**/favicon.ico] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2020-07-21 01:23:13.764 [main] org.springframework.jmx.export.annotation.AnnotationMBeanExporter -Registering beans for JMX exposure on startup
+2020-07-21 01:23:13.765 [main] org.springframework.jmx.export.annotation.AnnotationMBeanExporter -Bean with name 'dataSource' has been autodetected for JMX exposure
+2020-07-21 01:23:13.769 [main] org.springframework.jmx.export.annotation.AnnotationMBeanExporter -Located MBean 'dataSource': registering with JMX server as MBean [com.zaxxer.hikari:name=dataSource,type=HikariDataSource]
+2020-07-21 01:23:13.780 [main] org.apache.coyote.http11.Http11NioProtocol -Starting ProtocolHandler ["http-nio-8888"]
+2020-07-21 01:23:13.795 [main] org.apache.tomcat.util.net.NioSelectorPool -Using a shared selector for servlet write/read
+2020-07-21 01:23:13.806 [main] org.springframework.boot.web.embedded.tomcat.TomcatWebServer -Tomcat started on port(s): 8888 (http) with context path ''
+2020-07-21 01:23:13.810 [main] com.course.Application -Started Application in 2.502 seconds (JVM running for 3.166)
+2020-07-21 01:23:28.900 [http-nio-8888-exec-1] org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] -Initializing Spring FrameworkServlet 'dispatcherServlet'
+2020-07-21 01:23:28.900 [http-nio-8888-exec-1] org.springframework.web.servlet.DispatcherServlet -FrameworkServlet 'dispatcherServlet': initialization started
+2020-07-21 01:23:28.917 [http-nio-8888-exec-1] org.springframework.web.servlet.DispatcherServlet -FrameworkServlet 'dispatcherServlet': initialization completed in 16 ms
+2020-07-21 01:24:39.433 [http-nio-8888-exec-1] com.zaxxer.hikari.HikariDataSource -HikariPool-1 - Starting...
+2020-07-21 01:24:39.723 [http-nio-8888-exec-1] com.zaxxer.hikari.HikariDataSource -HikariPool-1 - Start completed.
+2020-07-21 01:31:10.852 [Thread-7] o.s.boot.web.servlet.context.AnnotationConfigServletWebServerApplicationContext -Closing org.springframework.boot.web.servlet.context.AnnotationConfigServletWebServerApplicationContext@45fd9a4d: startup date [Tue Jul 21 01:23:11 CST 2020]; root of context hierarchy
+2020-07-21 01:31:10.855 [Thread-7] org.springframework.jmx.export.annotation.AnnotationMBeanExporter -Unregistering JMX-exposed beans on shutdown
+2020-07-21 01:31:10.855 [Thread-7] org.springframework.jmx.export.annotation.AnnotationMBeanExporter -Unregistering JMX-exposed beans
+2020-07-21 01:31:10.856 [Thread-7] com.zaxxer.hikari.HikariDataSource -HikariPool-1 - Shutdown initiated...
+2020-07-21 01:31:10.863 [Thread-7] com.zaxxer.hikari.HikariDataSource -HikariPool-1 - Shutdown completed.
+2020-07-21 01:31:18.056 [main] com.course.Application -Starting Application on macbook-pro with PID 4699 (/Users/zhouhaiqing/eclipse-workspace/muke/AutoTest/Chapter11/target/classes started by zhouhaiqing in /Users/zhouhaiqing/eclipse-workspace/muke/AutoTest)
+2020-07-21 01:31:18.058 [main] com.course.Application -No active profile set, falling back to default profiles: default
+2020-07-21 01:31:18.083 [main] o.s.boot.web.servlet.context.AnnotationConfigServletWebServerApplicationContext -Refreshing org.springframework.boot.web.servlet.context.AnnotationConfigServletWebServerApplicationContext@394df057: startup date [Tue Jul 21 01:31:18 CST 2020]; root of context hierarchy
+2020-07-21 01:31:18.408 [main] org.mybatis.spring.mapper.ClassPathMapperScanner -No MyBatis mapper was found in '[com.course]' package. Please check your configuration.
+2020-07-21 01:31:18.778 [main] org.springframework.boot.web.embedded.tomcat.TomcatWebServer -Tomcat initialized with port(s): 8888 (http)
+2020-07-21 01:31:18.786 [main] org.apache.coyote.http11.Http11NioProtocol -Initializing ProtocolHandler ["http-nio-8888"]
+2020-07-21 01:31:18.792 [main] org.apache.catalina.core.StandardService -Starting service [Tomcat]
+2020-07-21 01:31:18.792 [main] org.apache.catalina.core.StandardEngine -Starting Servlet Engine: Apache Tomcat/8.5.28
+2020-07-21 01:31:18.795 [localhost-startStop-1] org.apache.catalina.core.AprLifecycleListener -The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: [/Users/zhouhaiqing/Library/Java/Extensions:/Library/Java/Extensions:/Network/Library/Java/Extensions:/System/Library/Java/Extensions:/usr/lib/java:.]
+2020-07-21 01:31:18.860 [localhost-startStop-1] org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] -Initializing Spring embedded WebApplicationContext
+2020-07-21 01:31:18.861 [localhost-startStop-1] org.springframework.web.context.ContextLoader -Root WebApplicationContext: initialization completed in 778 ms
+2020-07-21 01:31:18.938 [localhost-startStop-1] org.springframework.boot.web.servlet.ServletRegistrationBean -Servlet dispatcherServlet mapped to [/]
+2020-07-21 01:31:18.940 [localhost-startStop-1] org.springframework.boot.web.servlet.FilterRegistrationBean -Mapping filter: 'characterEncodingFilter' to: [/*]
+2020-07-21 01:31:18.941 [localhost-startStop-1] org.springframework.boot.web.servlet.FilterRegistrationBean -Mapping filter: 'hiddenHttpMethodFilter' to: [/*]
+2020-07-21 01:31:18.941 [localhost-startStop-1] org.springframework.boot.web.servlet.FilterRegistrationBean -Mapping filter: 'httpPutFormContentFilter' to: [/*]
+2020-07-21 01:31:18.941 [localhost-startStop-1] org.springframework.boot.web.servlet.FilterRegistrationBean -Mapping filter: 'requestContextFilter' to: [/*]
+2020-07-21 01:31:18.987 [main] o.s.boot.web.servlet.context.AnnotationConfigServletWebServerApplicationContext -Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'demo': Unsatisfied dependency expressed through field 'template'; nested exception is org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'sqlSessionTemplate' defined in class path resource [org/mybatis/spring/boot/autoconfigure/MybatisAutoConfiguration.class]: Unsatisfied dependency expressed through method 'sqlSessionTemplate' parameter 0; nested exception is org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'sqlSessionFactory' defined in class path resource [org/mybatis/spring/boot/autoconfigure/MybatisAutoConfiguration.class]: Unsatisfied dependency expressed through method 'sqlSessionFactory' parameter 0; nested exception is org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'dataSource' defined in class path resource [org/springframework/boot/autoconfigure/jdbc/DataSourceConfiguration$Hikari.class]: Bean instantiation via factory method failed; nested exception is org.springframework.beans.BeanInstantiationException: Failed to instantiate [com.zaxxer.hikari.HikariDataSource]: Factory method 'dataSource' threw exception; nested exception is org.springframework.boot.autoconfigure.jdbc.DataSourceProperties$DataSourceBeanCreationException: Failed to determine a suitable driver class
+2020-07-21 01:31:18.987 [main] org.springframework.context.annotation.CommonAnnotationBeanPostProcessor -Invocation of destroy method failed on bean with name 'application': java.lang.NullPointerException
+2020-07-21 01:31:18.988 [main] org.apache.catalina.core.StandardService -Stopping service [Tomcat]
+2020-07-21 01:31:18.998 [main] o.s.boot.autoconfigure.logging.ConditionEvaluationReportLoggingListener -
+
+Error starting ApplicationContext. To display the conditions report re-run your application with 'debug' enabled.
+2020-07-21 01:31:19.002 [main] org.springframework.boot.diagnostics.LoggingFailureAnalysisReporter -
+
+***************************
+APPLICATION FAILED TO START
+***************************
+
+Description:
+
+Failed to auto-configure a DataSource: 'spring.datasource.url' is not specified and no embedded datasource could be auto-configured.
+
+Reason: Failed to determine a suitable driver class
+
+
+Action:
+
+Consider the following:
+	If you want an embedded database (H2, HSQL or Derby), please put it on the classpath.
+	If you have database settings to be loaded from a particular profile you may need to activate it (no profiles are currently active).
+
+2020-07-21 01:31:37.976 [main] com.course.Application -Starting Application on macbook-pro with PID 4703 (/Users/zhouhaiqing/eclipse-workspace/muke/AutoTest/Chapter11/target/classes started by zhouhaiqing in /Users/zhouhaiqing/eclipse-workspace/muke/AutoTest)
+2020-07-21 01:31:37.978 [main] com.course.Application -No active profile set, falling back to default profiles: default
+2020-07-21 01:31:38.003 [main] o.s.boot.web.servlet.context.AnnotationConfigServletWebServerApplicationContext -Refreshing org.springframework.boot.web.servlet.context.AnnotationConfigServletWebServerApplicationContext@394df057: startup date [Tue Jul 21 01:31:38 CST 2020]; root of context hierarchy
+2020-07-21 01:31:38.326 [main] org.mybatis.spring.mapper.ClassPathMapperScanner -No MyBatis mapper was found in '[com.course]' package. Please check your configuration.
+2020-07-21 01:31:38.694 [main] org.springframework.boot.web.embedded.tomcat.TomcatWebServer -Tomcat initialized with port(s): 8888 (http)
+2020-07-21 01:31:38.703 [main] org.apache.coyote.http11.Http11NioProtocol -Initializing ProtocolHandler ["http-nio-8888"]
+2020-07-21 01:31:38.710 [main] org.apache.catalina.core.StandardService -Starting service [Tomcat]
+2020-07-21 01:31:38.710 [main] org.apache.catalina.core.StandardEngine -Starting Servlet Engine: Apache Tomcat/8.5.28
+2020-07-21 01:31:38.713 [localhost-startStop-1] org.apache.catalina.core.AprLifecycleListener -The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: [/Users/zhouhaiqing/Library/Java/Extensions:/Library/Java/Extensions:/Network/Library/Java/Extensions:/System/Library/Java/Extensions:/usr/lib/java:.]
+2020-07-21 01:31:38.783 [localhost-startStop-1] org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] -Initializing Spring embedded WebApplicationContext
+2020-07-21 01:31:38.784 [localhost-startStop-1] org.springframework.web.context.ContextLoader -Root WebApplicationContext: initialization completed in 782 ms
+2020-07-21 01:31:38.891 [localhost-startStop-1] org.springframework.boot.web.servlet.ServletRegistrationBean -Servlet dispatcherServlet mapped to [/]
+2020-07-21 01:31:38.894 [localhost-startStop-1] org.springframework.boot.web.servlet.FilterRegistrationBean -Mapping filter: 'characterEncodingFilter' to: [/*]
+2020-07-21 01:31:38.894 [localhost-startStop-1] org.springframework.boot.web.servlet.FilterRegistrationBean -Mapping filter: 'hiddenHttpMethodFilter' to: [/*]
+2020-07-21 01:31:38.894 [localhost-startStop-1] org.springframework.boot.web.servlet.FilterRegistrationBean -Mapping filter: 'httpPutFormContentFilter' to: [/*]
+2020-07-21 01:31:38.894 [localhost-startStop-1] org.springframework.boot.web.servlet.FilterRegistrationBean -Mapping filter: 'requestContextFilter' to: [/*]
+2020-07-21 01:31:39.306 [main] o.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter -Looking for @ControllerAdvice: org.springframework.boot.web.servlet.context.AnnotationConfigServletWebServerApplicationContext@394df057: startup date [Tue Jul 21 01:31:38 CST 2020]; root of context hierarchy
+2020-07-21 01:31:39.355 [main] o.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping -Mapped "{[/v1/getUserCount],methods=[GET]}" onto public int com.course.controller.Demo.getUserCount()
+2020-07-21 01:31:39.359 [main] o.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping -Mapped "{[/error],produces=[text/html]}" onto public org.springframework.web.servlet.ModelAndView org.springframework.boot.autoconfigure.web.servlet.error.BasicErrorController.errorHtml(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse)
+2020-07-21 01:31:39.359 [main] o.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping -Mapped "{[/error]}" onto public org.springframework.http.ResponseEntity<java.util.Map<java.lang.String, java.lang.Object>> org.springframework.boot.autoconfigure.web.servlet.error.BasicErrorController.error(javax.servlet.http.HttpServletRequest)
+2020-07-21 01:31:39.432 [main] org.springframework.web.servlet.handler.SimpleUrlHandlerMapping -Mapped URL path [/webjars/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2020-07-21 01:31:39.432 [main] org.springframework.web.servlet.handler.SimpleUrlHandlerMapping -Mapped URL path [/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2020-07-21 01:31:39.457 [main] org.springframework.web.servlet.handler.SimpleUrlHandlerMapping -Mapped URL path [/**/favicon.ico] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2020-07-21 01:31:39.577 [main] org.springframework.jmx.export.annotation.AnnotationMBeanExporter -Registering beans for JMX exposure on startup
+2020-07-21 01:31:39.578 [main] org.springframework.jmx.export.annotation.AnnotationMBeanExporter -Bean with name 'dataSource' has been autodetected for JMX exposure
+2020-07-21 01:31:39.582 [main] org.springframework.jmx.export.annotation.AnnotationMBeanExporter -Located MBean 'dataSource': registering with JMX server as MBean [com.zaxxer.hikari:name=dataSource,type=HikariDataSource]
+2020-07-21 01:31:39.591 [main] org.apache.coyote.http11.Http11NioProtocol -Starting ProtocolHandler ["http-nio-8888"]
+2020-07-21 01:31:39.607 [main] org.apache.tomcat.util.net.NioSelectorPool -Using a shared selector for servlet write/read
+2020-07-21 01:31:39.614 [main] org.springframework.boot.web.embedded.tomcat.TomcatWebServer -Tomcat started on port(s): 8888 (http) with context path ''
+2020-07-21 01:31:39.617 [main] com.course.Application -Started Application in 1.851 seconds (JVM running for 2.342)
+2020-07-21 03:17:24.418 [main] com.course.Application -Starting Application on macbook-pro with PID 4881 (/Users/zhouhaiqing/eclipse-workspace/muke/AutoTest/Chapter11/target/classes started by zhouhaiqing in /Users/zhouhaiqing/eclipse-workspace/muke/AutoTest)
+2020-07-21 03:17:24.422 [main] com.course.Application -No active profile set, falling back to default profiles: default
+2020-07-21 03:17:24.466 [main] o.s.boot.web.servlet.context.AnnotationConfigServletWebServerApplicationContext -Refreshing org.springframework.boot.web.servlet.context.AnnotationConfigServletWebServerApplicationContext@394df057: startup date [Tue Jul 21 03:17:24 CST 2020]; root of context hierarchy
+2020-07-21 03:17:25.178 [main] org.mybatis.spring.mapper.ClassPathMapperScanner -No MyBatis mapper was found in '[com.course]' package. Please check your configuration.
+2020-07-21 03:17:25.956 [main] org.springframework.boot.web.embedded.tomcat.TomcatWebServer -Tomcat initialized with port(s): 8888 (http)
+2020-07-21 03:17:25.967 [main] org.apache.coyote.http11.Http11NioProtocol -Initializing ProtocolHandler ["http-nio-8888"]
+2020-07-21 03:17:25.974 [main] org.apache.catalina.core.StandardService -Starting service [Tomcat]
+2020-07-21 03:17:25.975 [main] org.apache.catalina.core.StandardEngine -Starting Servlet Engine: Apache Tomcat/8.5.28
+2020-07-21 03:17:25.979 [localhost-startStop-1] org.apache.catalina.core.AprLifecycleListener -The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: [/Users/zhouhaiqing/Library/Java/Extensions:/Library/Java/Extensions:/Network/Library/Java/Extensions:/System/Library/Java/Extensions:/usr/lib/java:.]
+2020-07-21 03:17:26.055 [localhost-startStop-1] org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] -Initializing Spring embedded WebApplicationContext
+2020-07-21 03:17:26.055 [localhost-startStop-1] org.springframework.web.context.ContextLoader -Root WebApplicationContext: initialization completed in 1589 ms
+2020-07-21 03:17:26.166 [localhost-startStop-1] org.springframework.boot.web.servlet.ServletRegistrationBean -Servlet dispatcherServlet mapped to [/]
+2020-07-21 03:17:26.171 [localhost-startStop-1] org.springframework.boot.web.servlet.FilterRegistrationBean -Mapping filter: 'characterEncodingFilter' to: [/*]
+2020-07-21 03:17:26.171 [localhost-startStop-1] org.springframework.boot.web.servlet.FilterRegistrationBean -Mapping filter: 'hiddenHttpMethodFilter' to: [/*]
+2020-07-21 03:17:26.172 [localhost-startStop-1] org.springframework.boot.web.servlet.FilterRegistrationBean -Mapping filter: 'httpPutFormContentFilter' to: [/*]
+2020-07-21 03:17:26.172 [localhost-startStop-1] org.springframework.boot.web.servlet.FilterRegistrationBean -Mapping filter: 'requestContextFilter' to: [/*]
+2020-07-21 03:17:26.769 [main] o.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter -Looking for @ControllerAdvice: org.springframework.boot.web.servlet.context.AnnotationConfigServletWebServerApplicationContext@394df057: startup date [Tue Jul 21 03:17:24 CST 2020]; root of context hierarchy
+2020-07-21 03:17:26.908 [main] o.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping -Mapped "{[/v1/getUserCount],methods=[GET]}" onto public int com.course.controller.Demo.getUserCount()
+2020-07-21 03:17:26.911 [main] o.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping -Mapped "{[/v1/addUser],methods=[POST]}" onto public int com.course.controller.Demo.addUser(com.course.model.User)
+2020-07-21 03:17:26.916 [main] o.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping -Mapped "{[/error],produces=[text/html]}" onto public org.springframework.web.servlet.ModelAndView org.springframework.boot.autoconfigure.web.servlet.error.BasicErrorController.errorHtml(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse)
+2020-07-21 03:17:26.917 [main] o.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping -Mapped "{[/error]}" onto public org.springframework.http.ResponseEntity<java.util.Map<java.lang.String, java.lang.Object>> org.springframework.boot.autoconfigure.web.servlet.error.BasicErrorController.error(javax.servlet.http.HttpServletRequest)
+2020-07-21 03:17:26.953 [main] org.springframework.web.servlet.handler.SimpleUrlHandlerMapping -Mapped URL path [/webjars/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2020-07-21 03:17:26.954 [main] org.springframework.web.servlet.handler.SimpleUrlHandlerMapping -Mapped URL path [/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2020-07-21 03:17:26.995 [main] org.springframework.web.servlet.handler.SimpleUrlHandlerMapping -Mapped URL path [/**/favicon.ico] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2020-07-21 03:17:27.222 [main] org.springframework.jmx.export.annotation.AnnotationMBeanExporter -Registering beans for JMX exposure on startup
+2020-07-21 03:17:27.224 [main] org.springframework.jmx.export.annotation.AnnotationMBeanExporter -Bean with name 'dataSource' has been autodetected for JMX exposure
+2020-07-21 03:17:27.230 [main] org.springframework.jmx.export.annotation.AnnotationMBeanExporter -Located MBean 'dataSource': registering with JMX server as MBean [com.zaxxer.hikari:name=dataSource,type=HikariDataSource]
+2020-07-21 03:17:27.246 [main] org.apache.coyote.http11.Http11NioProtocol -Starting ProtocolHandler ["http-nio-8888"]
+2020-07-21 03:17:27.264 [main] org.apache.catalina.core.StandardService -Failed to start connector [Connector[HTTP/1.1-8888]]
+org.apache.catalina.LifecycleException: Failed to start component [Connector[HTTP/1.1-8888]]
+	at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:167)
+	at org.apache.catalina.core.StandardService.addConnector(StandardService.java:225)
+	at org.springframework.boot.web.embedded.tomcat.TomcatWebServer.addPreviouslyRemovedConnectors(TomcatWebServer.java:255)
+	at org.springframework.boot.web.embedded.tomcat.TomcatWebServer.start(TomcatWebServer.java:197)
+	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.startWebServer(ServletWebServerApplicationContext.java:300)
+	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.finishRefresh(ServletWebServerApplicationContext.java:162)
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:552)
+	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.refresh(ServletWebServerApplicationContext.java:140)
+	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:752)
+	at org.springframework.boot.SpringApplication.refreshContext(SpringApplication.java:388)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:327)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1246)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1234)
+	at com.course.Application.main(Application.java:17)
+Caused by: org.apache.catalina.LifecycleException: Protocol handler start failed
+	at org.apache.catalina.connector.Connector.startInternal(Connector.java:1021)
+	at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:150)
+	... 13 common frames omitted
+Caused by: java.net.BindException: Address already in use
+	at sun.nio.ch.Net.bind0(Native Method)
+	at sun.nio.ch.Net.bind(Net.java:433)
+	at sun.nio.ch.Net.bind(Net.java:425)
+	at sun.nio.ch.ServerSocketChannelImpl.bind(ServerSocketChannelImpl.java:223)
+	at sun.nio.ch.ServerSocketAdaptor.bind(ServerSocketAdaptor.java:74)
+	at org.apache.tomcat.util.net.NioEndpoint.bind(NioEndpoint.java:210)
+	at org.apache.tomcat.util.net.AbstractEndpoint.start(AbstractEndpoint.java:1150)
+	at org.apache.coyote.AbstractProtocol.start(AbstractProtocol.java:591)
+	at org.apache.catalina.connector.Connector.startInternal(Connector.java:1018)
+	... 14 common frames omitted
+2020-07-21 03:17:27.268 [main] org.apache.coyote.http11.Http11NioProtocol -Pausing ProtocolHandler ["http-nio-8888"]
+2020-07-21 03:17:27.269 [main] org.apache.catalina.core.StandardService -Stopping service [Tomcat]
+2020-07-21 03:17:27.275 [main] org.apache.catalina.util.LifecycleBase -The stop() method was called on component [StandardServer[-1]] after stop() had already been called. The second call will be ignored.
+2020-07-21 03:17:27.276 [main] org.apache.coyote.http11.Http11NioProtocol -Stopping ProtocolHandler ["http-nio-8888"]
+2020-07-21 03:17:27.276 [main] org.apache.coyote.http11.Http11NioProtocol -Destroying ProtocolHandler ["http-nio-8888"]
+2020-07-21 03:17:27.279 [main] o.s.boot.autoconfigure.logging.ConditionEvaluationReportLoggingListener -
+
+Error starting ApplicationContext. To display the conditions report re-run your application with 'debug' enabled.
+2020-07-21 03:17:27.283 [main] org.springframework.boot.diagnostics.LoggingFailureAnalysisReporter -
+
+***************************
+APPLICATION FAILED TO START
+***************************
+
+Description:
+
+The Tomcat connector configured to listen on port 8888 failed to start. The port may already be in use or the connector may be misconfigured.
+
+Action:
+
+Verify the connector's configuration, identify and stop any process that's listening on port 8888, or configure this application to listen on another port.
+
+2020-07-21 03:17:27.284 [main] o.s.boot.web.servlet.context.AnnotationConfigServletWebServerApplicationContext -Closing org.springframework.boot.web.servlet.context.AnnotationConfigServletWebServerApplicationContext@394df057: startup date [Tue Jul 21 03:17:24 CST 2020]; root of context hierarchy
+2020-07-21 03:17:27.286 [main] org.springframework.jmx.export.annotation.AnnotationMBeanExporter -Unregistering JMX-exposed beans on shutdown
+2020-07-21 03:17:27.287 [main] org.springframework.jmx.export.annotation.AnnotationMBeanExporter -Unregistering JMX-exposed beans
+2020-07-21 03:17:27.288 [main] org.springframework.context.annotation.CommonAnnotationBeanPostProcessor -Invocation of destroy method failed on bean with name 'application': java.lang.NullPointerException
+2020-07-21 03:19:05.423 [main] com.course.Application -Starting Application on macbook-pro with PID 4903 (/Users/zhouhaiqing/eclipse-workspace/muke/AutoTest/Chapter11/target/classes started by zhouhaiqing in /Users/zhouhaiqing/eclipse-workspace/muke/AutoTest)
+2020-07-21 03:19:05.427 [main] com.course.Application -No active profile set, falling back to default profiles: default
+2020-07-21 03:19:05.477 [main] o.s.boot.web.servlet.context.AnnotationConfigServletWebServerApplicationContext -Refreshing org.springframework.boot.web.servlet.context.AnnotationConfigServletWebServerApplicationContext@394df057: startup date [Tue Jul 21 03:19:05 CST 2020]; root of context hierarchy
+2020-07-21 03:19:06.143 [main] org.mybatis.spring.mapper.ClassPathMapperScanner -No MyBatis mapper was found in '[com.course]' package. Please check your configuration.
+2020-07-21 03:19:06.896 [main] org.springframework.boot.web.embedded.tomcat.TomcatWebServer -Tomcat initialized with port(s): 8888 (http)
+2020-07-21 03:19:06.909 [main] org.apache.coyote.http11.Http11NioProtocol -Initializing ProtocolHandler ["http-nio-8888"]
+2020-07-21 03:19:06.918 [main] org.apache.catalina.core.StandardService -Starting service [Tomcat]
+2020-07-21 03:19:06.918 [main] org.apache.catalina.core.StandardEngine -Starting Servlet Engine: Apache Tomcat/8.5.28
+2020-07-21 03:19:06.923 [localhost-startStop-1] org.apache.catalina.core.AprLifecycleListener -The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: [/Users/zhouhaiqing/Library/Java/Extensions:/Library/Java/Extensions:/Network/Library/Java/Extensions:/System/Library/Java/Extensions:/usr/lib/java:.]
+2020-07-21 03:19:07.006 [localhost-startStop-1] org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] -Initializing Spring embedded WebApplicationContext
+2020-07-21 03:19:07.006 [localhost-startStop-1] org.springframework.web.context.ContextLoader -Root WebApplicationContext: initialization completed in 1529 ms
+2020-07-21 03:19:07.132 [localhost-startStop-1] org.springframework.boot.web.servlet.ServletRegistrationBean -Servlet dispatcherServlet mapped to [/]
+2020-07-21 03:19:07.137 [localhost-startStop-1] org.springframework.boot.web.servlet.FilterRegistrationBean -Mapping filter: 'characterEncodingFilter' to: [/*]
+2020-07-21 03:19:07.137 [localhost-startStop-1] org.springframework.boot.web.servlet.FilterRegistrationBean -Mapping filter: 'hiddenHttpMethodFilter' to: [/*]
+2020-07-21 03:19:07.138 [localhost-startStop-1] org.springframework.boot.web.servlet.FilterRegistrationBean -Mapping filter: 'httpPutFormContentFilter' to: [/*]
+2020-07-21 03:19:07.138 [localhost-startStop-1] org.springframework.boot.web.servlet.FilterRegistrationBean -Mapping filter: 'requestContextFilter' to: [/*]
+2020-07-21 03:19:07.744 [main] o.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter -Looking for @ControllerAdvice: org.springframework.boot.web.servlet.context.AnnotationConfigServletWebServerApplicationContext@394df057: startup date [Tue Jul 21 03:19:05 CST 2020]; root of context hierarchy
+2020-07-21 03:19:07.892 [main] o.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping -Mapped "{[/v1/addUser],methods=[POST]}" onto public int com.course.controller.Demo.addUser(com.course.model.User)
+2020-07-21 03:19:07.894 [main] o.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping -Mapped "{[/v1/getUserCount],methods=[GET]}" onto public int com.course.controller.Demo.getUserCount()
+2020-07-21 03:19:07.898 [main] o.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping -Mapped "{[/error],produces=[text/html]}" onto public org.springframework.web.servlet.ModelAndView org.springframework.boot.autoconfigure.web.servlet.error.BasicErrorController.errorHtml(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse)
+2020-07-21 03:19:07.898 [main] o.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping -Mapped "{[/error]}" onto public org.springframework.http.ResponseEntity<java.util.Map<java.lang.String, java.lang.Object>> org.springframework.boot.autoconfigure.web.servlet.error.BasicErrorController.error(javax.servlet.http.HttpServletRequest)
+2020-07-21 03:19:07.939 [main] org.springframework.web.servlet.handler.SimpleUrlHandlerMapping -Mapped URL path [/webjars/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2020-07-21 03:19:07.939 [main] org.springframework.web.servlet.handler.SimpleUrlHandlerMapping -Mapped URL path [/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2020-07-21 03:19:07.997 [main] org.springframework.web.servlet.handler.SimpleUrlHandlerMapping -Mapped URL path [/**/favicon.ico] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2020-07-21 03:19:08.254 [main] org.springframework.jmx.export.annotation.AnnotationMBeanExporter -Registering beans for JMX exposure on startup
+2020-07-21 03:19:08.255 [main] org.springframework.jmx.export.annotation.AnnotationMBeanExporter -Bean with name 'dataSource' has been autodetected for JMX exposure
+2020-07-21 03:19:08.263 [main] org.springframework.jmx.export.annotation.AnnotationMBeanExporter -Located MBean 'dataSource': registering with JMX server as MBean [com.zaxxer.hikari:name=dataSource,type=HikariDataSource]
+2020-07-21 03:19:08.282 [main] org.apache.coyote.http11.Http11NioProtocol -Starting ProtocolHandler ["http-nio-8888"]
+2020-07-21 03:19:08.303 [main] org.apache.catalina.core.StandardService -Failed to start connector [Connector[HTTP/1.1-8888]]
+org.apache.catalina.LifecycleException: Failed to start component [Connector[HTTP/1.1-8888]]
+	at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:167)
+	at org.apache.catalina.core.StandardService.addConnector(StandardService.java:225)
+	at org.springframework.boot.web.embedded.tomcat.TomcatWebServer.addPreviouslyRemovedConnectors(TomcatWebServer.java:255)
+	at org.springframework.boot.web.embedded.tomcat.TomcatWebServer.start(TomcatWebServer.java:197)
+	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.startWebServer(ServletWebServerApplicationContext.java:300)
+	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.finishRefresh(ServletWebServerApplicationContext.java:162)
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:552)
+	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.refresh(ServletWebServerApplicationContext.java:140)
+	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:752)
+	at org.springframework.boot.SpringApplication.refreshContext(SpringApplication.java:388)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:327)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1246)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1234)
+	at com.course.Application.main(Application.java:17)
+Caused by: org.apache.catalina.LifecycleException: Protocol handler start failed
+	at org.apache.catalina.connector.Connector.startInternal(Connector.java:1021)
+	at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:150)
+	... 13 common frames omitted
+Caused by: java.net.BindException: Address already in use
+	at sun.nio.ch.Net.bind0(Native Method)
+	at sun.nio.ch.Net.bind(Net.java:433)
+	at sun.nio.ch.Net.bind(Net.java:425)
+	at sun.nio.ch.ServerSocketChannelImpl.bind(ServerSocketChannelImpl.java:223)
+	at sun.nio.ch.ServerSocketAdaptor.bind(ServerSocketAdaptor.java:74)
+	at org.apache.tomcat.util.net.NioEndpoint.bind(NioEndpoint.java:210)
+	at org.apache.tomcat.util.net.AbstractEndpoint.start(AbstractEndpoint.java:1150)
+	at org.apache.coyote.AbstractProtocol.start(AbstractProtocol.java:591)
+	at org.apache.catalina.connector.Connector.startInternal(Connector.java:1018)
+	... 14 common frames omitted
+2020-07-21 03:19:08.307 [main] org.apache.coyote.http11.Http11NioProtocol -Pausing ProtocolHandler ["http-nio-8888"]
+2020-07-21 03:19:08.308 [main] org.apache.catalina.core.StandardService -Stopping service [Tomcat]
+2020-07-21 03:19:08.315 [main] org.apache.catalina.util.LifecycleBase -The stop() method was called on component [StandardServer[-1]] after stop() had already been called. The second call will be ignored.
+2020-07-21 03:19:08.315 [main] org.apache.coyote.http11.Http11NioProtocol -Stopping ProtocolHandler ["http-nio-8888"]
+2020-07-21 03:19:08.316 [main] org.apache.coyote.http11.Http11NioProtocol -Destroying ProtocolHandler ["http-nio-8888"]
+2020-07-21 03:19:08.320 [main] o.s.boot.autoconfigure.logging.ConditionEvaluationReportLoggingListener -
+
+Error starting ApplicationContext. To display the conditions report re-run your application with 'debug' enabled.
+2020-07-21 03:19:08.324 [main] org.springframework.boot.diagnostics.LoggingFailureAnalysisReporter -
+
+***************************
+APPLICATION FAILED TO START
+***************************
+
+Description:
+
+The Tomcat connector configured to listen on port 8888 failed to start. The port may already be in use or the connector may be misconfigured.
+
+Action:
+
+Verify the connector's configuration, identify and stop any process that's listening on port 8888, or configure this application to listen on another port.
+
+2020-07-21 03:19:08.325 [main] o.s.boot.web.servlet.context.AnnotationConfigServletWebServerApplicationContext -Closing org.springframework.boot.web.servlet.context.AnnotationConfigServletWebServerApplicationContext@394df057: startup date [Tue Jul 21 03:19:05 CST 2020]; root of context hierarchy
+2020-07-21 03:19:08.328 [main] org.springframework.jmx.export.annotation.AnnotationMBeanExporter -Unregistering JMX-exposed beans on shutdown
+2020-07-21 03:19:08.328 [main] org.springframework.jmx.export.annotation.AnnotationMBeanExporter -Unregistering JMX-exposed beans
+2020-07-21 03:19:08.330 [main] org.springframework.context.annotation.CommonAnnotationBeanPostProcessor -Invocation of destroy method failed on bean with name 'application': java.lang.NullPointerException
+2020-07-21 03:22:14.043 [Thread-5] o.s.boot.web.servlet.context.AnnotationConfigServletWebServerApplicationContext -Closing org.springframework.boot.web.servlet.context.AnnotationConfigServletWebServerApplicationContext@394df057: startup date [Tue Jul 21 01:31:38 CST 2020]; root of context hierarchy
+2020-07-21 03:22:14.046 [Thread-5] org.springframework.jmx.export.annotation.AnnotationMBeanExporter -Unregistering JMX-exposed beans on shutdown
+2020-07-21 03:22:14.046 [Thread-5] org.springframework.jmx.export.annotation.AnnotationMBeanExporter -Unregistering JMX-exposed beans
+2020-07-21 04:06:16.689 [main] com.course.Application -Starting Application on macbook-pro with PID 811 (/Users/zhouhaiqing/eclipse-workspace/muke/AutoTest/Chapter11/target/classes started by zhouhaiqing in /Users/zhouhaiqing/eclipse-workspace/muke/AutoTest)
+2020-07-21 04:06:16.691 [main] com.course.Application -No active profile set, falling back to default profiles: default
+2020-07-21 04:06:16.734 [main] o.s.boot.web.servlet.context.AnnotationConfigServletWebServerApplicationContext -Refreshing org.springframework.boot.web.servlet.context.AnnotationConfigServletWebServerApplicationContext@394df057: startup date [Tue Jul 21 04:06:16 CST 2020]; root of context hierarchy
+2020-07-21 04:06:17.200 [main] org.mybatis.spring.mapper.ClassPathMapperScanner -No MyBatis mapper was found in '[com.course]' package. Please check your configuration.
+2020-07-21 04:06:17.671 [main] org.springframework.boot.web.embedded.tomcat.TomcatWebServer -Tomcat initialized with port(s): 8888 (http)
+2020-07-21 04:06:17.682 [main] org.apache.coyote.http11.Http11NioProtocol -Initializing ProtocolHandler ["http-nio-8888"]
+2020-07-21 04:06:17.689 [main] org.apache.catalina.core.StandardService -Starting service [Tomcat]
+2020-07-21 04:06:17.689 [main] org.apache.catalina.core.StandardEngine -Starting Servlet Engine: Apache Tomcat/8.5.28
+2020-07-21 04:06:17.692 [localhost-startStop-1] org.apache.catalina.core.AprLifecycleListener -The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: [/Users/zhouhaiqing/Library/Java/Extensions:/Library/Java/Extensions:/Network/Library/Java/Extensions:/System/Library/Java/Extensions:/usr/lib/java:.]
+2020-07-21 04:06:17.756 [localhost-startStop-1] org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] -Initializing Spring embedded WebApplicationContext
+2020-07-21 04:06:17.756 [localhost-startStop-1] org.springframework.web.context.ContextLoader -Root WebApplicationContext: initialization completed in 1022 ms
+2020-07-21 04:06:17.836 [localhost-startStop-1] org.springframework.boot.web.servlet.ServletRegistrationBean -Servlet dispatcherServlet mapped to [/]
+2020-07-21 04:06:17.840 [localhost-startStop-1] org.springframework.boot.web.servlet.FilterRegistrationBean -Mapping filter: 'characterEncodingFilter' to: [/*]
+2020-07-21 04:06:17.840 [localhost-startStop-1] org.springframework.boot.web.servlet.FilterRegistrationBean -Mapping filter: 'hiddenHttpMethodFilter' to: [/*]
+2020-07-21 04:06:17.840 [localhost-startStop-1] org.springframework.boot.web.servlet.FilterRegistrationBean -Mapping filter: 'httpPutFormContentFilter' to: [/*]
+2020-07-21 04:06:17.840 [localhost-startStop-1] org.springframework.boot.web.servlet.FilterRegistrationBean -Mapping filter: 'requestContextFilter' to: [/*]
+2020-07-21 04:06:18.313 [main] o.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter -Looking for @ControllerAdvice: org.springframework.boot.web.servlet.context.AnnotationConfigServletWebServerApplicationContext@394df057: startup date [Tue Jul 21 04:06:16 CST 2020]; root of context hierarchy
+2020-07-21 04:06:18.444 [main] o.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping -Mapped "{[/v1/getUserCount],methods=[GET]}" onto public int com.course.controller.Demo.getUserCount()
+2020-07-21 04:06:18.446 [main] o.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping -Mapped "{[/v1/addUser],methods=[POST]}" onto public int com.course.controller.Demo.addUser(com.course.model.User)
+2020-07-21 04:06:18.448 [main] o.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping -Mapped "{[/error]}" onto public org.springframework.http.ResponseEntity<java.util.Map<java.lang.String, java.lang.Object>> org.springframework.boot.autoconfigure.web.servlet.error.BasicErrorController.error(javax.servlet.http.HttpServletRequest)
+2020-07-21 04:06:18.449 [main] o.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping -Mapped "{[/error],produces=[text/html]}" onto public org.springframework.web.servlet.ModelAndView org.springframework.boot.autoconfigure.web.servlet.error.BasicErrorController.errorHtml(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse)
+2020-07-21 04:06:18.473 [main] org.springframework.web.servlet.handler.SimpleUrlHandlerMapping -Mapped URL path [/webjars/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2020-07-21 04:06:18.474 [main] org.springframework.web.servlet.handler.SimpleUrlHandlerMapping -Mapped URL path [/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2020-07-21 04:06:18.500 [main] org.springframework.web.servlet.handler.SimpleUrlHandlerMapping -Mapped URL path [/**/favicon.ico] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2020-07-21 04:06:18.634 [main] org.springframework.jmx.export.annotation.AnnotationMBeanExporter -Registering beans for JMX exposure on startup
+2020-07-21 04:06:18.635 [main] org.springframework.jmx.export.annotation.AnnotationMBeanExporter -Bean with name 'dataSource' has been autodetected for JMX exposure
+2020-07-21 04:06:18.638 [main] org.springframework.jmx.export.annotation.AnnotationMBeanExporter -Located MBean 'dataSource': registering with JMX server as MBean [com.zaxxer.hikari:name=dataSource,type=HikariDataSource]
+2020-07-21 04:06:18.649 [main] org.apache.coyote.http11.Http11NioProtocol -Starting ProtocolHandler ["http-nio-8888"]
+2020-07-21 04:06:18.665 [main] org.apache.tomcat.util.net.NioSelectorPool -Using a shared selector for servlet write/read
+2020-07-21 04:06:18.675 [main] org.springframework.boot.web.embedded.tomcat.TomcatWebServer -Tomcat started on port(s): 8888 (http) with context path ''
+2020-07-21 04:06:18.678 [main] com.course.Application -Started Application in 2.406 seconds (JVM running for 3.077)
+2020-07-21 04:19:26.909 [http-nio-8888-exec-1] org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] -Initializing Spring FrameworkServlet 'dispatcherServlet'
+2020-07-21 04:19:26.910 [http-nio-8888-exec-1] org.springframework.web.servlet.DispatcherServlet -FrameworkServlet 'dispatcherServlet': initialization started
+2020-07-21 04:19:26.923 [http-nio-8888-exec-1] org.springframework.web.servlet.DispatcherServlet -FrameworkServlet 'dispatcherServlet': initialization completed in 13 ms
+2020-07-21 04:22:21.471 [http-nio-8888-exec-5] org.springframework.web.servlet.mvc.support.DefaultHandlerExceptionResolver -Failed to read HTTP message: org.springframework.http.converter.HttpMessageNotReadableException: JSON parse error: Unexpected character (',' (code 44)): was expecting a colon to separate field name and value; nested exception is com.fasterxml.jackson.core.JsonParseException: Unexpected character (',' (code 44)): was expecting a colon to separate field name and value
+ at [Source: (PushbackInputStream); line: 4, column: 7]
+2020-07-21 04:23:07.056 [http-nio-8888-exec-6] com.zaxxer.hikari.HikariDataSource -HikariPool-1 - Starting...
+2020-07-21 04:23:07.383 [http-nio-8888-exec-6] com.zaxxer.hikari.HikariDataSource -HikariPool-1 - Start completed.
+2020-07-21 04:36:36.070 [Thread-6] o.s.boot.web.servlet.context.AnnotationConfigServletWebServerApplicationContext -Closing org.springframework.boot.web.servlet.context.AnnotationConfigServletWebServerApplicationContext@394df057: startup date [Tue Jul 21 04:06:16 CST 2020]; root of context hierarchy
+2020-07-21 04:36:36.072 [Thread-6] org.springframework.jmx.export.annotation.AnnotationMBeanExporter -Unregistering JMX-exposed beans on shutdown
+2020-07-21 04:36:36.072 [Thread-6] org.springframework.jmx.export.annotation.AnnotationMBeanExporter -Unregistering JMX-exposed beans
+2020-07-21 04:36:36.073 [Thread-6] com.zaxxer.hikari.HikariDataSource -HikariPool-1 - Shutdown initiated...
+2020-07-21 04:36:36.080 [Thread-6] com.zaxxer.hikari.HikariDataSource -HikariPool-1 - Shutdown completed.
+2020-07-21 05:04:18.026 [main] com.course.Application -Starting Application on macbook-pro with PID 940 (/Users/zhouhaiqing/eclipse-workspace/muke/AutoTest/Chapter11/target/classes started by zhouhaiqing in /Users/zhouhaiqing/eclipse-workspace/muke/AutoTest)
+2020-07-21 05:04:18.028 [main] com.course.Application -No active profile set, falling back to default profiles: default
+2020-07-21 05:04:18.054 [main] o.s.boot.web.servlet.context.AnnotationConfigServletWebServerApplicationContext -Refreshing org.springframework.boot.web.servlet.context.AnnotationConfigServletWebServerApplicationContext@394df057: startup date [Tue Jul 21 05:04:18 CST 2020]; root of context hierarchy
+2020-07-21 05:04:18.390 [main] org.mybatis.spring.mapper.ClassPathMapperScanner -No MyBatis mapper was found in '[com.course]' package. Please check your configuration.
+2020-07-21 05:04:18.884 [main] org.springframework.boot.web.embedded.tomcat.TomcatWebServer -Tomcat initialized with port(s): 8888 (http)
+2020-07-21 05:04:18.894 [main] org.apache.coyote.http11.Http11NioProtocol -Initializing ProtocolHandler ["http-nio-8888"]
+2020-07-21 05:04:18.902 [main] org.apache.catalina.core.StandardService -Starting service [Tomcat]
+2020-07-21 05:04:18.902 [main] org.apache.catalina.core.StandardEngine -Starting Servlet Engine: Apache Tomcat/8.5.28
+2020-07-21 05:04:18.905 [localhost-startStop-1] org.apache.catalina.core.AprLifecycleListener -The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: [/Users/zhouhaiqing/Library/Java/Extensions:/Library/Java/Extensions:/Network/Library/Java/Extensions:/System/Library/Java/Extensions:/usr/lib/java:.]
+2020-07-21 05:04:18.966 [localhost-startStop-1] org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] -Initializing Spring embedded WebApplicationContext
+2020-07-21 05:04:18.966 [localhost-startStop-1] org.springframework.web.context.ContextLoader -Root WebApplicationContext: initialization completed in 912 ms
+2020-07-21 05:04:19.058 [localhost-startStop-1] org.springframework.boot.web.servlet.ServletRegistrationBean -Servlet dispatcherServlet mapped to [/]
+2020-07-21 05:04:19.061 [localhost-startStop-1] org.springframework.boot.web.servlet.FilterRegistrationBean -Mapping filter: 'characterEncodingFilter' to: [/*]
+2020-07-21 05:04:19.061 [localhost-startStop-1] org.springframework.boot.web.servlet.FilterRegistrationBean -Mapping filter: 'hiddenHttpMethodFilter' to: [/*]
+2020-07-21 05:04:19.062 [localhost-startStop-1] org.springframework.boot.web.servlet.FilterRegistrationBean -Mapping filter: 'httpPutFormContentFilter' to: [/*]
+2020-07-21 05:04:19.062 [localhost-startStop-1] org.springframework.boot.web.servlet.FilterRegistrationBean -Mapping filter: 'requestContextFilter' to: [/*]
+2020-07-21 05:04:19.429 [main] o.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter -Looking for @ControllerAdvice: org.springframework.boot.web.servlet.context.AnnotationConfigServletWebServerApplicationContext@394df057: startup date [Tue Jul 21 05:04:18 CST 2020]; root of context hierarchy
+2020-07-21 05:04:19.520 [main] o.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping -Mapped "{[/v1/addUser],methods=[POST]}" onto public int com.course.controller.Demo.addUser(com.course.model.User)
+2020-07-21 05:04:19.521 [main] o.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping -Mapped "{[/v1/getUserCount],methods=[GET]}" onto public int com.course.controller.Demo.getUserCount()
+2020-07-21 05:04:19.521 [main] o.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping -Mapped "{[/v1/updateUser],methods=[POST]}" onto public int com.course.controller.Demo.updateUser(com.course.model.User)
+2020-07-21 05:04:19.522 [main] o.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping -Mapped "{[/v1/deleteUser],methods=[GET]}" onto public int com.course.controller.Demo.deleteUser(int)
+2020-07-21 05:04:19.524 [main] o.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping -Mapped "{[/error]}" onto public org.springframework.http.ResponseEntity<java.util.Map<java.lang.String, java.lang.Object>> org.springframework.boot.autoconfigure.web.servlet.error.BasicErrorController.error(javax.servlet.http.HttpServletRequest)
+2020-07-21 05:04:19.525 [main] o.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping -Mapped "{[/error],produces=[text/html]}" onto public org.springframework.web.servlet.ModelAndView org.springframework.boot.autoconfigure.web.servlet.error.BasicErrorController.errorHtml(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse)
+2020-07-21 05:04:19.548 [main] org.springframework.web.servlet.handler.SimpleUrlHandlerMapping -Mapped URL path [/webjars/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2020-07-21 05:04:19.548 [main] org.springframework.web.servlet.handler.SimpleUrlHandlerMapping -Mapped URL path [/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2020-07-21 05:04:19.573 [main] org.springframework.web.servlet.handler.SimpleUrlHandlerMapping -Mapped URL path [/**/favicon.ico] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2020-07-21 05:04:19.692 [main] org.springframework.jmx.export.annotation.AnnotationMBeanExporter -Registering beans for JMX exposure on startup
+2020-07-21 05:04:19.693 [main] org.springframework.jmx.export.annotation.AnnotationMBeanExporter -Bean with name 'dataSource' has been autodetected for JMX exposure
+2020-07-21 05:04:19.697 [main] org.springframework.jmx.export.annotation.AnnotationMBeanExporter -Located MBean 'dataSource': registering with JMX server as MBean [com.zaxxer.hikari:name=dataSource,type=HikariDataSource]
+2020-07-21 05:04:19.707 [main] org.apache.coyote.http11.Http11NioProtocol -Starting ProtocolHandler ["http-nio-8888"]
+2020-07-21 05:04:19.722 [main] org.apache.tomcat.util.net.NioSelectorPool -Using a shared selector for servlet write/read
+2020-07-21 05:04:19.730 [main] org.springframework.boot.web.embedded.tomcat.TomcatWebServer -Tomcat started on port(s): 8888 (http) with context path ''
+2020-07-21 05:04:19.733 [main] com.course.Application -Started Application in 1.916 seconds (JVM running for 2.408)
+2020-07-21 05:06:38.574 [http-nio-8888-exec-1] org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] -Initializing Spring FrameworkServlet 'dispatcherServlet'
+2020-07-21 05:06:38.574 [http-nio-8888-exec-1] org.springframework.web.servlet.DispatcherServlet -FrameworkServlet 'dispatcherServlet': initialization started
+2020-07-21 05:06:38.586 [http-nio-8888-exec-1] org.springframework.web.servlet.DispatcherServlet -FrameworkServlet 'dispatcherServlet': initialization completed in 12 ms
+2020-07-21 05:06:38.645 [http-nio-8888-exec-1] com.zaxxer.hikari.HikariDataSource -HikariPool-1 - Starting...
+2020-07-21 05:06:38.882 [http-nio-8888-exec-1] com.zaxxer.hikari.HikariDataSource -HikariPool-1 - Start completed.
+2020-07-21 05:36:03.057 [Thread-6] o.s.boot.web.servlet.context.AnnotationConfigServletWebServerApplicationContext -Closing org.springframework.boot.web.servlet.context.AnnotationConfigServletWebServerApplicationContext@394df057: startup date [Tue Jul 21 05:04:18 CST 2020]; root of context hierarchy
+2020-07-21 05:36:03.059 [Thread-6] org.springframework.jmx.export.annotation.AnnotationMBeanExporter -Unregistering JMX-exposed beans on shutdown
+2020-07-21 05:36:03.059 [Thread-6] org.springframework.jmx.export.annotation.AnnotationMBeanExporter -Unregistering JMX-exposed beans
+2020-07-21 05:36:03.060 [Thread-6] com.zaxxer.hikari.HikariDataSource -HikariPool-1 - Shutdown initiated...
+2020-07-21 05:36:03.066 [Thread-6] com.zaxxer.hikari.HikariDataSource -HikariPool-1 - Shutdown completed.
